@@ -21,7 +21,8 @@ lazy val root = project
     name           := "krotenheerdt-sequence",
     publish / skip := true,
     libraryDependencies ++= Seq(
-      "io.github.scala-tessella" %% "research-core" % "0.13.1",
+      "io.github.scala-tessella" %% "research-core"        % "0.13.1",
+      "io.github.scala-tessella" %% "research-core-solver" % "0.13.1",
       "org.scalatest"            %% "scalatest"     % "3.2.20" % Test
     ),
     // the parallel searches and the certificate runs are memory-hungry; the opt-in runs are selected by system

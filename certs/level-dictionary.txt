@@ -1,0 +1,91 @@
+contexts 747, descriptors 90, unreadable 0
+C.C.C  off01 - off12 - off02 -              18:100%
+C.C.H2  off01 - off12 - off02 -             16:100%
+C.C.H3  off01 - off12 - off02 -             16:66% 25:33%
+C.C.H4  off01 - off12 - off02 -             16:50% 25:50%
+C.C.P  off01 - off12 - off02 -              25:100%
+C.H2=P  off01 - off12 - off02 -             21:50%
+C.H3=H3  off01 - off12 1.5/3 off02 -        19:66%
+C.H3=P  off01 - off12 - off02 -             28:66%
+C.H4=H4  off01 - off12 1.5/4 off02 -        19:25% 28:50%
+C.H4=P  off01 - off12 - off02 -             28:50% 30:25%
+C.P.C  off01 - off12 - off02 -              25:100%
+C.P=H2  off01 - off12 - off02 -             28:100%
+C.P=H3  off01 - off12 - off02 -             28:66% 30:33%
+C.P=H4  off01 - off12 - off02 -             28:50% 30:50%
+C.P=P  off01 - off12 - off02 -              30:100%
+C.PxH2  off01 - off12 - off02 -             27:100%
+C.PxH3  off01 - off12 - off02 -             27:66% 29:33%
+C.PxH4  off01 - off12 - off02 -             27:50% 29:50%
+C.PxP  off01 - off12 - off02 -              29:100%
+H2=P.C  off01 - off12 - off02 -             16:100%
+H2=P=H2  off01 - off12 - off02 0.0/2        19:100%
+H2=P=H2  off01 - off12 - off02 1.0/2        21:100%
+H2=P=H3  off01 - off12 - off02 0.0/1        19:33% 21:33% 28:33%
+H2=P=H4  off01 - off12 - off02 0.0/2        19:50% 28:50%
+H2=P=H4  off01 - off12 - off02 1.0/2        21:50% 28:50%
+H2=P=P  off01 - off12 - off02 -             28:100%
+H2=PxH2  off01 - off12 - off02 -            20:100%
+H2=PxH3  off01 - off12 - off02 -            20:66% 27:33%
+H2=PxH4  off01 - off12 - off02 -            20:50% 27:50%
+H2=PxP  off01 - off12 - off02 -             27:100%
+H3=H3=H3  off01 1.5/3 off12 1.5/3 off02 0.0/3  13:66%
+H3=H3=P  off01 1.5/3 off12 - off02 -        19:66%
+H3=P.C  off01 - off12 - off02 -             16:66% 25:33%
+H3=P=H2  off01 - off12 - off02 0.0/1        19:33% 21:33% 28:33%
+H3=P=H3  off01 - off12 - off02 0.0/3        19:66% 30:33%
+H3=P=H3  off01 - off12 - off02 1.0/3        21:33% 28:66%
+H3=P=H4  off01 - off12 - off02 0.0/1        19:16% 21:16% 28:50% 30:16%
+H3=P=P  off01 - off12 - off02 -             28:66% 30:33%
+H3=PxH2  off01 - off12 - off02 -            20:66% 27:33%
+H3=PxH3  off01 - off12 - off02 -            20:44% 27:44% 29:11%
+H3=PxH4  off01 - off12 - off02 -            20:33% 27:50% 29:16%
+H3=PxP  off01 - off12 - off02 -             27:66% 29:33%
+H4=H4=H4  off01 1.5/4 off12 1.5/4 off02 0.0/4  13:25% 19:25% 28:25%
+H4=H4=H4  off01 1.5/4 off12 1.5/4 off02 1.0/4  19:50% 21:25%
+H4=H4=P  off01 1.5/4 off12 - off02 -        19:25% 28:50%
+H4=P.C  off01 - off12 - off02 -             16:50% 25:50%
+H4=P=H2  off01 - off12 - off02 0.0/2        19:50% 28:50%
+H4=P=H2  off01 - off12 - off02 1.0/2        21:50% 28:50%
+H4=P=H3  off01 - off12 - off02 0.0/1        19:16% 21:16% 28:50% 30:16%
+H4=P=H4  off01 - off12 - off02 0.0/4        19:50% 30:50%
+H4=P=H4  off01 - off12 - off02 1.0/4        21:25% 28:50% 30:25%
+H4=P=H4  off01 - off12 - off02 2.0/4        28:100%
+H4=P=P  off01 - off12 - off02 -             28:50% 30:50%
+H4=PxH2  off01 - off12 - off02 -            20:50% 27:50%
+H4=PxH3  off01 - off12 - off02 -            20:33% 27:50% 29:16%
+H4=PxH4  off01 - off12 - off02 -            20:25% 27:50% 29:25%
+H4=PxP  off01 - off12 - off02 -             27:50% 29:50%
+P.C.C  off01 - off12 - off02 -              18:100%
+P.C.H2  off01 - off12 - off02 -             16:100%
+P.C.H3  off01 - off12 - off02 -             16:66% 25:33%
+P.C.H4  off01 - off12 - off02 -             16:50% 25:50%
+P.C.P  off01 - off12 - off02 -              25:100%
+P=H2=P  off01 - off12 - off02 -             21:50%
+P=H3=H3  off01 - off12 1.5/3 off02 -        19:66%
+P=H3=P  off01 - off12 - off02 -             28:66%
+P=H4=H4  off01 - off12 1.5/4 off02 -        19:25% 28:50%
+P=H4=P  off01 - off12 - off02 -             28:50% 30:25%
+P=P.C  off01 - off12 - off02 -              25:100%
+P=P=H2  off01 - off12 - off02 -             28:100%
+P=P=H3  off01 - off12 - off02 -             28:66% 30:33%
+P=P=H4  off01 - off12 - off02 -             28:50% 30:50%
+P=P=P  off01 - off12 - off02 -              30:100%
+P=PxH2  off01 - off12 - off02 -             27:100%
+P=PxH3  off01 - off12 - off02 -             27:66% 29:33%
+P=PxH4  off01 - off12 - off02 -             27:50% 29:50%
+P=PxP  off01 - off12 - off02 -              29:100%
+PxH2=P  off01 - off12 - off02 -             21:50%
+PxH3=H3  off01 - off12 1.5/3 off02 -        19:66%
+PxH3=P  off01 - off12 - off02 -             28:66%
+PxH4=H4  off01 - off12 1.5/4 off02 -        19:25% 28:50%
+PxH4=P  off01 - off12 - off02 -             28:50% 30:25%
+PxP.C  off01 - off12 - off02 -              25:100%
+PxP=H2  off01 - off12 - off02 -             28:100%
+PxP=H3  off01 - off12 - off02 -             28:66% 30:33%
+PxP=H4  off01 - off12 - off02 -             28:50% 30:50%
+PxP=P  off01 - off12 - off02 -              30:100%
+PxPxH2  off01 - off12 - off02 -             27:100%
+PxPxH3  off01 - off12 - off02 -             27:66% 29:33%
+PxPxH4  off01 - off12 - off02 -             27:50% 29:50%
+PxPxP  off01 - off12 - off02 -              29:100%

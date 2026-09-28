@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: >-
+  If you cite this verification artifact, please cite the specific archived version you
+  checked, not the repository in general. Each release has its own version DOI.
+title: >-
+  krotenheerdt-sequence: machine-checked companion to "The three-dimensional Krötenheerdt
+  sequence and its vanishing point"
+abstract: >-
+  The verification artifact for the paper's claims: the stacking model of honeycombs by cubes
+  and prisms with two prism directions, the symmetries of a stacking word, and the exact
+  enumeration of the words with every cut the paper proves; the facts of the species table
+  the structure theorems use; the slab world; the census of the rows k = 2, 3, 4; the
+  prismatic lifts, with the planar Krötenheerdt sequence re-derived by a SAT assembler; and
+  the enumeration of the rows k = 4 to 10 with the dossier of every class from k = 5 on. The
+  sequence of k-uniform Krötenheerdt honeycombs of Euclidean 3-space is 28, 57, 119, 146,
+  122, 78, 18, 2 and vanishes from k = 9 on. All shared machinery is the pinned research-core
+  library.
+type: software
+authors:
+  - given-names: Mario
+    family-names: Càllisto
+    orcid: https://orcid.org/0009-0009-1215-3278
+    email: mario.callisto@gmail.com
+    alias: mcallisto
+license: Apache-2.0
+repository-code: https://github.com/scala-tessella/krotenheerdt-sequence
+url: https://github.com/scala-tessella/krotenheerdt-sequence
+keywords:
+  - honeycombs
+  - k-uniform honeycombs
+  - Krötenheerdt tilings
+  - convex uniform polyhedra
+  - tilings of 3-space
+  - Delaney-Dress symbols
+  - SAT
+  - computer-assisted proof
+  - reproducibility
+  - Scala
+references:
+  - type: software
+    title: research-core
+    abstract: >-
+      The pinned library providing every shared engine this artifact depends on
+      (research-core 0.13.1).
+    authors:
+      - given-names: Mario
+        family-names: Càllisto
+        orcid: https://orcid.org/0009-0009-1215-3278
+    version: 0.13.1
+    repository-code: https://github.com/scala-tessella/research-core
+    license: Apache-2.0

@@ -14,6 +14,18 @@ import StripEnumeration.*
   */
 class StripCertificatesSpec extends AnyFlatSpec with Matchers:
 
+  /** Appends a certificate's lines to `certs/<name>.txt` (and echoes them), the file started afresh at the
+    * first line a run writes to it.
+    */
+  private val started                            = collection.mutable.Set.empty[String]
+  private def record(name: String)(text: String) =
+    println(text)
+    val p = java.nio.file.Path.of("certs", s"$name.txt")
+    java.nio.file.Files.createDirectories(p.getParent)
+    if started.add(name) then java.nio.file.Files.writeString(p, text + "\n")
+    else java.nio.file.Files.writeString(p, text + "\n", java.nio.file.StandardOpenOption.APPEND)
+    ()
+
   /** The star kinds at a base row's lower level, certified: with a uniform layer below (cubes, a plain row of
     * either axis, with or without a plain same-axis row under it) the vertices of the level are corners — 2
     * per period across, one species — and between vertices — p − 2 per period, one species. Over the upper
@@ -56,7 +68,7 @@ class StripCertificatesSpec extends AnyFlatSpec with Matchers:
               else Vector(2 * 2 * u, (2 * (q - 2) + (p - 2) * 2) * u, (p - 2) * (q - 2) * u)
             sortedCounts(at) shouldBe expected.sorted
           }
-      println(table.mkString("\n"))
+      record("star-kinds")(table.mkString("\n"))
     }
 
   /** The species a stacking word over the alphabet of periods 2, 3, 4 can carry at a junction: the union over
@@ -80,8 +92,12 @@ class StripCertificatesSpec extends AnyFlatSpec with Matchers:
       val sp = o.at(w)
       if sp.contains(-1) then unread += 1
       for x <- sp if x >= 0 do reached(x) = reached.getOrElse(x, 0) + 1
-    println(s"windows ${windows.size}, consistent ${ok.size}, unreadable $unread")
-    println(reached.toVector.sorted.map((x, n) => s"$x:$n").mkString("reached ", "  ", ""))
+    record("reachable-species")(s"windows ${windows.size}, consistent ${ok.size}, unreadable $unread")
+    record("reachable-species")(reached.toVector.sorted.map((x, n) => s"$x:$n").mkString(
+      "reached ",
+      "  ",
+      ""
+    ))
     unread shouldBe 0
     // the two #2 arrangements of the cube species, 17 and 26, occur at no junction: at most 11 species in a word
     reached.keySet shouldBe Set(13, 16, 18, 19, 20, 21, 25, 27, 28, 29, 30)
@@ -95,7 +111,7 @@ class StripCertificatesSpec extends AnyFlatSpec with Matchers:
     for (pu, pw) <- sectors do
       val inSector = ok.filter(_.forall(l => periodsOf(l).forall((ax, p) => if ax then pu(p) else pw(p))))
       val sp       = inSector.flatMap(o.at).filter(_ >= 0).toSet
-      println(
+      record("reachable-species")(
         s"sector u ${pu.toVector.sorted.mkString(",")} w ${pw.toVector.sorted.mkString(",")}: ${sp.size} species ${sp.toVector.sorted.mkString(" ")}"
       )
   }
@@ -161,7 +177,7 @@ class StripCertificatesSpec extends AnyFlatSpec with Matchers:
         val sp = o.at(w)
         withClue(s"$k at ${showLayers(w)}: ")(sp shouldBe expected(k))
         seen(k) = seen.getOrElse(k, Set.empty) ++ sp
-    println(s"period-2 windows $windows; kinds ${seen.size}: " +
+    record("junction-kinds")(s"period-2 windows $windows; kinds ${seen.size}: " +
       seen.toVector.sortBy(_._1).map((k, s) => s"$k -> ${s.mkString(",")}").mkString("; "))
     seen.keySet shouldBe expected.keySet
   }
@@ -243,7 +259,9 @@ class StripCertificatesSpec extends AnyFlatSpec with Matchers:
           with13 += 1
           (run4(l0, l1) && run4(l1, l2)) shouldBe true
         if sp.contains(18) then (l1 == Layer.Cubic && l2 == Layer.Cubic) shouldBe true
-      println(s"contexts ${ok.size}: first levels $firstLevels, third rows $thirdRows, with 13 $with13")
+      record("period-4-runs")(
+        s"contexts ${ok.size}: first levels $firstLevels, third rows $thirdRows, with 13 $with13"
+      )
       firstLevels should be > 0
       thirdRows should be > 0
       with13 should be > 0
@@ -295,8 +313,8 @@ class StripCertificatesSpec extends AnyFlatSpec with Matchers:
         s"${s.toVector.sorted.mkString(",")}:${n * 100 / a}%"
       ).mkString(" ")
       table.getOrElseUpdate(descriptor(w), collection.mutable.Set.empty) += sp
-    println(s"contexts ${ok.size}, descriptors ${table.size}, unreadable $unread")
+    record("level-dictionary")(s"contexts ${ok.size}, descriptors ${table.size}, unreadable $unread")
     for (d, sps) <- table.toVector.sortBy(_._1) do
-      println(f"$d%-42s  ${sps.toVector.sorted.mkString("  ||  ")}")
+      record("level-dictionary")(f"$d%-42s  ${sps.toVector.sorted.mkString("  ||  ")}")
     unread shouldBe 0
   }

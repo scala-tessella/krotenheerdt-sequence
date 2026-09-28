@@ -1,0 +1,135 @@
+C C          | Tu{0/2} Tu  cell  16  16:16
+C Tu         | Tu{0/2} Tu  cell  16  28:16
+Tu Tu        | Tu{0/2} Tu  cell  16  28:16
+C Tw         | Tu{0/2} Tu  cell  16  27:16
+Tu Tw        | Tu{0/2} Tu  cell  16  27:16
+Tw Tw        | Tu{0/2} Tu  cell  16  27:16
+Tw{0/2} Tw   | Tu{0/2} Tu  cell  16  20:16
+Tw{1/2} Tw   | Tu{0/2} Tu  cell  16  20:16
+Tw{0/3} Tw   | Tu{0/2} Tu  cell  48  27:16  20:32
+Tw{1/3} Tw   | Tu{0/2} Tu  cell  48  27:16  20:32
+Tw{2/3} Tw   | Tu{0/2} Tu  cell  48  27:16  20:32
+Tw{0/4} Tw   | Tu{0/2} Tu  cell  16  20:8  27:8
+Tw{1/4} Tw   | Tu{0/2} Tu  cell  16  20:8  27:8
+Tw{2/4} Tw   | Tu{0/2} Tu  cell  16  20:8  27:8
+Tw{3/4} Tw   | Tu{0/2} Tu  cell  16  20:8  27:8
+C C          | Tu{1/2} Tu  cell  16  16:16
+C Tu         | Tu{1/2} Tu  cell  16  28:16
+Tu Tu        | Tu{1/2} Tu  cell  16  28:16
+C Tw         | Tu{1/2} Tu  cell  16  27:16
+Tu Tw        | Tu{1/2} Tu  cell  16  27:16
+Tw Tw        | Tu{1/2} Tu  cell  16  27:16
+Tw{0/2} Tw   | Tu{1/2} Tu  cell  16  20:16
+Tw{1/2} Tw   | Tu{1/2} Tu  cell  16  20:16
+Tw{0/3} Tw   | Tu{1/2} Tu  cell  48  27:16  20:32
+Tw{1/3} Tw   | Tu{1/2} Tu  cell  48  27:16  20:32
+Tw{2/3} Tw   | Tu{1/2} Tu  cell  48  27:16  20:32
+Tw{0/4} Tw   | Tu{1/2} Tu  cell  16  20:8  27:8
+Tw{1/4} Tw   | Tu{1/2} Tu  cell  16  20:8  27:8
+Tw{2/4} Tw   | Tu{1/2} Tu  cell  16  20:8  27:8
+Tw{3/4} Tw   | Tu{1/2} Tu  cell  16  20:8  27:8
+C C          | Tu{0/3} Tu  cell  48  25:16  16:32
+C Tu         | Tu{0/3} Tu  cell  48  30:16  28:32
+Tu Tu        | Tu{0/3} Tu  cell  48  30:16  28:32
+C Tw         | Tu{0/3} Tu  cell  48  29:16  27:32
+Tu Tw        | Tu{0/3} Tu  cell  48  29:16  27:32
+Tw Tw        | Tu{0/3} Tu  cell  48  29:16  27:32
+Tw{0/2} Tw   | Tu{0/3} Tu  cell  48  27:16  20:32
+Tw{1/2} Tw   | Tu{0/3} Tu  cell  48  27:16  20:32
+Tw{0/3} Tw   | Tu{0/3} Tu  cell 144  29:16  20:64  27:64
+Tw{1/3} Tw   | Tu{0/3} Tu  cell 144  29:16  20:64  27:64
+Tw{2/3} Tw   | Tu{0/3} Tu  cell 144  29:16  20:64  27:64
+Tw{0/4} Tw   | Tu{0/3} Tu  cell  48  29:8  20:16  27:24
+Tw{1/4} Tw   | Tu{0/3} Tu  cell  48  29:8  20:16  27:24
+Tw{2/4} Tw   | Tu{0/3} Tu  cell  48  29:8  20:16  27:24
+Tw{3/4} Tw   | Tu{0/3} Tu  cell  48  29:8  20:16  27:24
+C C          | Tu{1/3} Tu  cell  48  25:16  16:32
+C Tu         | Tu{1/3} Tu  cell  48  30:16  28:32
+Tu Tu        | Tu{1/3} Tu  cell  48  30:16  28:32
+C Tw         | Tu{1/3} Tu  cell  48  29:16  27:32
+Tu Tw        | Tu{1/3} Tu  cell  48  29:16  27:32
+Tw Tw        | Tu{1/3} Tu  cell  48  29:16  27:32
+Tw{0/2} Tw   | Tu{1/3} Tu  cell  48  27:16  20:32
+Tw{1/2} Tw   | Tu{1/3} Tu  cell  48  27:16  20:32
+Tw{0/3} Tw   | Tu{1/3} Tu  cell 144  29:16  27:64  20:64
+Tw{1/3} Tw   | Tu{1/3} Tu  cell 144  29:16  27:64  20:64
+Tw{2/3} Tw   | Tu{1/3} Tu  cell 144  29:16  27:64  20:64
+Tw{0/4} Tw   | Tu{1/3} Tu  cell  48  29:8  20:16  27:24
+Tw{1/4} Tw   | Tu{1/3} Tu  cell  48  29:8  20:16  27:24
+Tw{2/4} Tw   | Tu{1/3} Tu  cell  48  29:8  20:16  27:24
+Tw{3/4} Tw   | Tu{1/3} Tu  cell  48  29:8  20:16  27:24
+C C          | Tu{2/3} Tu  cell  48  25:16  16:32
+C Tu         | Tu{2/3} Tu  cell  48  30:16  28:32
+Tu Tu        | Tu{2/3} Tu  cell  48  30:16  28:32
+C Tw         | Tu{2/3} Tu  cell  48  29:16  27:32
+Tu Tw        | Tu{2/3} Tu  cell  48  29:16  27:32
+Tw Tw        | Tu{2/3} Tu  cell  48  29:16  27:32
+Tw{0/2} Tw   | Tu{2/3} Tu  cell  48  27:16  20:32
+Tw{1/2} Tw   | Tu{2/3} Tu  cell  48  27:16  20:32
+Tw{0/3} Tw   | Tu{2/3} Tu  cell 144  29:16  20:64  27:64
+Tw{1/3} Tw   | Tu{2/3} Tu  cell 144  29:16  20:64  27:64
+Tw{2/3} Tw   | Tu{2/3} Tu  cell 144  29:16  20:64  27:64
+Tw{0/4} Tw   | Tu{2/3} Tu  cell  48  29:8  20:16  27:24
+Tw{1/4} Tw   | Tu{2/3} Tu  cell  48  29:8  20:16  27:24
+Tw{2/4} Tw   | Tu{2/3} Tu  cell  48  29:8  20:16  27:24
+Tw{3/4} Tw   | Tu{2/3} Tu  cell  48  29:8  20:16  27:24
+C C          | Tu{0/4} Tu  cell  16  16:8  25:8
+C Tu         | Tu{0/4} Tu  cell  16  28:8  30:8
+Tu Tu        | Tu{0/4} Tu  cell  16  28:8  30:8
+C Tw         | Tu{0/4} Tu  cell  16  27:8  29:8
+Tu Tw        | Tu{0/4} Tu  cell  16  27:8  29:8
+Tw Tw        | Tu{0/4} Tu  cell  16  27:8  29:8
+Tw{0/2} Tw   | Tu{0/4} Tu  cell  16  20:8  27:8
+Tw{1/2} Tw   | Tu{0/4} Tu  cell  16  20:8  27:8
+Tw{0/3} Tw   | Tu{0/4} Tu  cell  48  29:8  20:16  27:24
+Tw{1/3} Tw   | Tu{0/4} Tu  cell  48  29:8  20:16  27:24
+Tw{2/3} Tw   | Tu{0/4} Tu  cell  48  29:8  20:16  27:24
+Tw{0/4} Tw   | Tu{0/4} Tu  cell  16  20:4  29:4  27:8
+Tw{1/4} Tw   | Tu{0/4} Tu  cell  16  20:4  29:4  27:8
+Tw{2/4} Tw   | Tu{0/4} Tu  cell  16  20:4  29:4  27:8
+Tw{3/4} Tw   | Tu{0/4} Tu  cell  16  20:4  29:4  27:8
+C C          | Tu{1/4} Tu  cell  16  25:8  16:8
+C Tu         | Tu{1/4} Tu  cell  16  30:8  28:8
+Tu Tu        | Tu{1/4} Tu  cell  16  30:8  28:8
+C Tw         | Tu{1/4} Tu  cell  16  29:8  27:8
+Tu Tw        | Tu{1/4} Tu  cell  16  29:8  27:8
+Tw Tw        | Tu{1/4} Tu  cell  16  29:8  27:8
+Tw{0/2} Tw   | Tu{1/4} Tu  cell  16  27:8  20:8
+Tw{1/2} Tw   | Tu{1/4} Tu  cell  16  27:8  20:8
+Tw{0/3} Tw   | Tu{1/4} Tu  cell  48  29:8  20:16  27:24
+Tw{1/3} Tw   | Tu{1/4} Tu  cell  48  29:8  20:16  27:24
+Tw{2/3} Tw   | Tu{1/4} Tu  cell  48  29:8  20:16  27:24
+Tw{0/4} Tw   | Tu{1/4} Tu  cell  16  20:4  29:4  27:8
+Tw{1/4} Tw   | Tu{1/4} Tu  cell  16  20:4  29:4  27:8
+Tw{2/4} Tw   | Tu{1/4} Tu  cell  16  20:4  29:4  27:8
+Tw{3/4} Tw   | Tu{1/4} Tu  cell  16  20:4  29:4  27:8
+C C          | Tu{2/4} Tu  cell  16  25:8  16:8
+C Tu         | Tu{2/4} Tu  cell  16  30:8  28:8
+Tu Tu        | Tu{2/4} Tu  cell  16  30:8  28:8
+C Tw         | Tu{2/4} Tu  cell  16  29:8  27:8
+Tu Tw        | Tu{2/4} Tu  cell  16  29:8  27:8
+Tw Tw        | Tu{2/4} Tu  cell  16  29:8  27:8
+Tw{0/2} Tw   | Tu{2/4} Tu  cell  16  27:8  20:8
+Tw{1/2} Tw   | Tu{2/4} Tu  cell  16  27:8  20:8
+Tw{0/3} Tw   | Tu{2/4} Tu  cell  48  29:8  20:16  27:24
+Tw{1/3} Tw   | Tu{2/4} Tu  cell  48  29:8  20:16  27:24
+Tw{2/3} Tw   | Tu{2/4} Tu  cell  48  29:8  20:16  27:24
+Tw{0/4} Tw   | Tu{2/4} Tu  cell  16  20:4  29:4  27:8
+Tw{1/4} Tw   | Tu{2/4} Tu  cell  16  20:4  29:4  27:8
+Tw{2/4} Tw   | Tu{2/4} Tu  cell  16  20:4  29:4  27:8
+Tw{3/4} Tw   | Tu{2/4} Tu  cell  16  20:4  29:4  27:8
+C C          | Tu{3/4} Tu  cell  16  16:8  25:8
+C Tu         | Tu{3/4} Tu  cell  16  28:8  30:8
+Tu Tu        | Tu{3/4} Tu  cell  16  28:8  30:8
+C Tw         | Tu{3/4} Tu  cell  16  27:8  29:8
+Tu Tw        | Tu{3/4} Tu  cell  16  27:8  29:8
+Tw Tw        | Tu{3/4} Tu  cell  16  27:8  29:8
+Tw{0/2} Tw   | Tu{3/4} Tu  cell  16  20:8  27:8
+Tw{1/2} Tw   | Tu{3/4} Tu  cell  16  20:8  27:8
+Tw{0/3} Tw   | Tu{3/4} Tu  cell  48  29:8  20:16  27:24
+Tw{1/3} Tw   | Tu{3/4} Tu  cell  48  29:8  20:16  27:24
+Tw{2/3} Tw   | Tu{3/4} Tu  cell  48  29:8  20:16  27:24
+Tw{0/4} Tw   | Tu{3/4} Tu  cell  16  20:4  29:4  27:8
+Tw{1/4} Tw   | Tu{3/4} Tu  cell  16  20:4  29:4  27:8
+Tw{2/4} Tw   | Tu{3/4} Tu  cell  16  20:4  29:4  27:8
+Tw{3/4} Tw   | Tu{3/4} Tu  cell  16  20:4  29:4  27:8

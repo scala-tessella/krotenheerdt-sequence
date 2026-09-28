@@ -1,0 +1,18 @@
+windows 9261, consistent 747, unreadable 0
+reached 13:22  16:72  18:3  19:226  20:162  21:148  25:68  27:226  28:334  29:160  30:164
+sector u 2 w 2: 10 species 16 18 19 20 21 25 27 28 29 30
+sector u 2 w 3: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 2 w 4: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 2 w 2,4: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 3 w 2: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 3 w 3: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 3 w 4: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 3 w 2,4: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 4 w 2: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 4 w 3: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 4 w 4: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 4 w 2,4: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 2,4 w 2: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 2,4 w 3: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 2,4 w 4: 11 species 13 16 18 19 20 21 25 27 28 29 30
+sector u 2,4 w 2,4: 11 species 13 16 18 19 20 21 25 27 28 29 30

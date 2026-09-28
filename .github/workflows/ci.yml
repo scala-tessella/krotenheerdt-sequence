@@ -1,0 +1,69 @@
+# Runs the artifact's fast tier on every push: every fixture, filter and canary against the pinned research-core
+# release from Maven Central, in a few minutes. A green badge means the fast tier re-derives on a clean machine.
+#
+# The long runs (the lemma certificates, the census rows, the lifts, the enumeration rows, the dossiers) are
+# opt-in by system property and appear as CANCELED in the default log rather than failed. The lemma
+# certificates, which take minutes, are the opt-in job below; the rows of hours are run by hand.
+#
+# The JDK matrix is deliberate — the enumeration is exact and combinatorial, so the counts must not depend on
+# the runtime.
+
+name: CI
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        java: [17, 21]
+    name: Claim specs (JDK ${{ matrix.java }})
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up JDK ${{ matrix.java }}
+        uses: actions/setup-java@v5
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: temurin
+          cache: sbt
+
+      - name: Setup sbt
+        uses: sbt/setup-sbt@v1
+
+      - name: Verify claim specs
+        run: sbt test
+
+  # Regenerates the lemma certificates and fails if the committed set does not come back byte for byte.
+  # Opt-in (Actions tab -> "Run workflow"): certs/ is committed so that a reader need not run anything, and this
+  # job is what keeps that committed copy honest.
+  certificates:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    name: Lemma certificates reproduce byte for byte (opt-in)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v5
+        with:
+          java-version: 21
+          distribution: temurin
+          cache: sbt
+
+      - name: Setup sbt
+        uses: sbt/setup-sbt@v1
+
+      - name: Regenerate the lemma certificates
+        run: sbt -Dcertificates "testOnly *StripCertificatesSpec"
+
+      - name: Compare against the committed set
+        run: git diff --exit-code -- certs/

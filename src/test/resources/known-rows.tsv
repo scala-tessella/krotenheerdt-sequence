@@ -1,0 +1,408 @@
+# The known rows of the stacking enumeration: k, key tag (32-bit hash of the canonical key), chambers,
+# species labels, one stacking word. Rows 1 to 4 include every class the search finds (the census rows
+# restricted to words); rows from 5 on are complete, lifts with straight rows included.
+1	14f70bf6	1	{cube:8}#1	C
+1	69909901	3	{p6:6}#1	Tu{1/3} Tu{2/3} Tu{0/3}
+1	a7fb5049	3	{p3:12}#2	Tu
+1	94728408	6	{p3:4 p6:4}#3	Tu{0/2} Tu
+1	cfbc6f7e	9	{p3:12}#1	Tu Tw
+1	c337683a	15	{cube:4 p3:6}#1	C Tw
+1	d9527183	15	{cube:4 p3:6}#1	C Tw C Tu
+2	f44ecac9	15	{p3:12}#2 ~ {p3:4 p6:4}#1	Tu{1/3} Tu{2/3} Tu
+2	7ed58614	18	{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu Tu{1/2} Tu
+2	e245b38c	18	{p3:12}#1 ~ {p3:12}#2	Tu Tw Tw Tu
+2	324deacc	21	{cube:4 p3:6}#1 ~ {cube:8}#1	Tu C C Tw C C
+2	50fdc02b	21	{cube:4 p3:6}#1 ~ {cube:8}#1	Tu C C
+2	cb41f571	21	{p3:12}#2 ~ {p3:8 p6:2}#2	Tu Tu{2/3} Tu
+2	2ccb80a1	24	{cube:4 p3:6}#1 ~ {p3:12}#1	C Tw Tu
+2	60789961	24	{cube:4 p3:6}#1 ~ {p3:12}#2	Tu C Tu
+2	83f1298b	24	{cube:4 p3:6}#1 ~ {p3:12}#2	C Tw Tw C Tu Tu
+2	af7ab07b	24	{cube:4 p3:6}#1 ~ {p3:12}#1	Tu C Tu Tw C Tw
+2	31b04d65	27	{cube:4 p3:6}#1 ~ {cube:8}#1	C Tw C C
+2	69bb5860	27	{cube:4 p3:6}#1 ~ {cube:8}#1	C Tw C C C Tu C C
+2	9856c298	27	{p3:12}#1 ~ {p3:12}#2	Tu Tw Tw Tw Tu Tu
+2	ea31515f	27	{p3:12}#1 ~ {p3:12}#2	Tu Tw Tu
+2	175116ba	30	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tw{0/2} Tw
+2	17e228cb	30	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw
+2	1ba1bf03	33	{cube:4 p3:6}#1 ~ {p3:12}#1	C Tw Tu Tw
+2	67e239da	33	{cube:4 p3:6}#1 ~ {p3:12}#2	C Tw Tw Tw C Tu Tu Tu
+2	953ff34d	33	{cube:4 p3:6}#1 ~ {p3:12}#2	Tu C Tu Tu
+2	a5bb1998	33	{cube:4 p3:6}#1 ~ {p3:12}#1	C Tw Tu Tw C Tu Tw Tu
+2	11bdb161	36	{p3:12}#1 ~ {p3:12}#2	Tu Tw Tu Tu
+2	3d2e49a2	36	{p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tu{1/2} Tu Tw
+2	43ab74ea	36	{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu Tw{0/2} Tw
+2	525ed1a9	36	{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu Tw{0/2} Tw Tu{1/2} Tu Tw{1/2} Tw
+2	a30a466d	36	{p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw
+2	219f048e	60	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu{1/2} Tu
+2	5f79f2cb	60	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu{1/2} Tu C Tw{0/2} Tw C Tu{0/2} Tu
+3	165e2691	30	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	Tu C C Tu
+3	92e69435	30	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	C C Tu Tu C C Tw Tw
+3	c74a660c	30	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	C C Tu Tw
+3	d99cce73	30	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	Tu C C Tu Tw C C Tw
+3	e707fb34	30	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu Tu{2/4} Tu
+3	1d871822	36	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	Tu C C C Tw Tw C C C Tu
+3	1f80669d	36	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	Tu C C C Tu Tw C C C Tw
+3	80c051f9	36	{p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p6:6}#1	Tu{3/4} Tu{1/4} Tu{2/4} Tu{0/4} Tu{1/4} Tu{3/4} Tu{0/4} Tu{2/4}
+3	b18b9595	36	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2	Tu{1/3} Tu Tu{0/3} Tu Tu{2/3} Tu
+3	bd6e6a75	36	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	Tu C C C Tw
+3	e1504aeb	36	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	Tu C C C Tu
+3	672635de	39	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	Tu C C Tu Tu
+3	86e5884a	39	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	C C Tu Tw Tu C C Tw Tu Tw
+3	8934a4dd	39	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	Tu C C Tu Tw
+3	a6f26e8c	39	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	C C Tu Tu Tu C C Tw Tw Tw
+3	81405f2d	42	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	C Tw Tw Tu Tu
+3	9907c9d7	42	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C
+3	cfcc760a	42	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C Tu Tu Tw Tw C Tw Tw Tu
+3	e52d8660	42	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tw{0/2} Tw C
+3	e6bb6a96	42	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	C Tw Tu Tu Tw C Tu Tw Tw Tu
+3	f5952098	42	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	C Tw Tu Tu Tw
+3	4f65a5a6	45	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	Tu C C C Tu Tu
+3	979861ff	45	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2	Tu C C C Tw Tw Tw C C C Tu Tu
+3	df831daa	45	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	Tu C C C Tu Tw
+3	fb66028b	45	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1	Tu C C C Tw Tu Tw C C C Tu Tw
+3	160ae4ba	48	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tu{1/2} Tu
+3	3fde9425	48	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tu{0/2} Tu Tu{1/2} Tu C Tu{1/2} Tu
+3	34884901	51	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	C Tw Tu Tu Tu Tw C Tu Tw Tw Tw Tu
+3	8829b868	51	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C Tu Tu Tw Tu
+3	d834647c	51	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	C Tw Tw Tu Tw Tw C Tu Tu Tw Tu Tu
+3	e9bcc479	51	{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2	C Tw Tu Tu Tu Tw
+3	44c4289e	54	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw
+3	5948d95c	54	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2	C Tw{1/3} Tw C Tw{0/3} Tw C Tw{2/3} Tw
+3	62729bd7	54	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu Tu Tu Tu{1/2} Tu Tu Tu
+3	674c2283	54	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tu{1/2} Tu C C C
+3	94574c7d	54	{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tu{0/2} Tu Tu{1/2} Tu Tw Tu{1/2} Tu
+3	9abbb3d6	54	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw Tu{1/2} Tu Tw Tw
+3	ceec63ba	54	{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tu{1/2} Tu
+3	d6191035	54	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C
+3	55ddcf0e	60	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu C Tw{0/2} Tw C Tu
+3	f582a1ca	60	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu
+3	7c12bb30	63	{p3:12}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu Tw{2/3} Tw Tu Tw{1/3} Tw Tu Tw{0/3} Tw
+3	8d50af65	63	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#1	C Tw{1/3} Tw{2/3} Tw
+3	42e15f43	66	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw Tu{1/2} Tu C Tu{1/2} Tu Tw
+3	55feb5ce	66	{cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tw{0/2} Tw
+3	92a91eef	66	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{1/2} Tu Tw Tu{1/2} Tu C Tu{0/2} Tu Tw
+3	ae14f235	66	{cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tw{0/2} Tw Tu C Tu Tw{1/2} Tw
+3	d723f77a	66	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw
+3	d8122431	66	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{1/2} Tu Tw
+3	04cd6dd4	72	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw Tw
+3	0ec26081	72	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw Tw Tu{1/2} Tu Tw Tw Tw
+3	299e2d5d	72	{p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu Tw{1/2} Tw Tw{0/2} Tw Tu{1/2} Tu
+3	6847219e	72	{p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu Tw{1/2} Tw Tw{0/2} Tw Tu{0/2} Tu Tu{1/2} Tu Tw{0/2} Tw Tw{1/2} Tw Tu{1/2} Tu
+3	ab38f4a4	72	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2	Tu{1/3} Tu{2/3} Tu Tu Tu{2/3} Tu{0/3} Tu Tu Tu{0/3} Tu{1/3} Tu Tu
+3	bd4a3bf9	72	{p3:12}#1 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#1	Tu Tw{2/3} Tw{0/3} Tw
+3	61ee74e1	84	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu{1/2} Tu C C Tw{0/2} Tw C C Tu{0/2} Tu C
+3	f25d405f	84	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu{1/2} Tu C
+3	286c95db	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tu{1/2} Tu Tw{0/2} Tw C Tw{1/2} Tw
+3	342bfdc9	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tw{0/2} Tw Tw{1/2} Tw C Tu{0/2} Tu Tu{1/2} Tu C Tw{1/2} Tw Tw{0/2} Tw C Tu{1/2} Tu
+3	42e911d0	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tu{0/2} Tu Tw{0/2} Tw C Tw{0/2} Tw
+3	5074f7e5	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tw{0/2} Tw Tw{1/2} Tw C Tu{1/2} Tu
+3	6c8b0c16	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tu{1/2} Tu Tw{1/2} Tw C Tw{0/2} Tw Tu{1/2} Tu C Tu{0/2} Tu Tw{0/2} Tw C Tw{1/2} Tw
+3	7e1b07e9	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tu{0/2} Tu Tw{1/2} Tw C Tw{1/2} Tw Tu{1/2} Tu C Tu{1/2} Tu Tw{0/2} Tw C Tw{0/2} Tw
+3	91bcc4d2	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tw{0/2} Tw
+3	c361da9a	96	{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tw{0/2} Tw Tu{1/2} Tu C Tw{1/2} Tw
+3	506f4a51	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tw{0/2} Tw C C C Tu{1/2} Tu C C C Tw{1/2} Tw C C C
+3	6fdd42b8	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C C Tu{1/2} Tu C C
+4	0b2b086d	48	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C Tu Tw Tw
+4	930fd16e	48	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C Tu Tu Tw Tw C C Tw Tw Tu
+4	96dec2ca	48	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	C C Tu Tw Tw Tu C C Tw Tu Tu Tw
+4	de743f77	48	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	C C Tu Tu Tw Tw
+4	0f48282f	54	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tw Tu Tu Tw C C C Tu Tw Tw
+4	10d5d3dc	54	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tu Tw Tw
+4	292f2cb5	54	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tu Tu Tw Tw C C C Tw Tw Tu
+4	af033d42	54	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tw Tw Tu
+4	20fbf382	57	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	C C Tu Tu Tw Tu Tu C C Tw Tw Tu Tw Tw
+4	b3af01b3	57	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C Tu Tw Tw Tw
+4	bc792e06	57	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	C C Tu Tw Tw Tw Tu C C Tw Tu Tu Tu Tw
+4	ef5a022b	57	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C Tu Tu Tw Tu
+4	1abb97e0	60	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu{0/2} Tu Tu{1/2} Tu C C Tu{1/2} Tu
+4	ac073bc3	60	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu{1/2} Tu
+4	1c7b1aba	63	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tw Tw Tu Tw Tw C C C Tu Tu Tw Tu
+4	4d1d39ed	63	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tw Tu Tu Tu Tw C C C Tu Tw Tw Tw
+4	614bd121	63	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tu Tu Tw Tu
+4	82aad290	63	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2	Tu C C C Tu Tw Tw Tw
+4	884343ce	72	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu Tu Tu Tu{1/2} Tu
+4	8f0b95c6	72	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tu{1/2} Tu
+4	8f567c31	72	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#1 ~ {p6:6}#1	C Tw{1/3} Tw{2/3} Tw{0/3} Tw C Tw{2/3} Tw{0/3} Tw{1/3} Tw C Tw{0/3} Tw{1/3} Tw{2/3} Tw
+4	c119b87f	72	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw Tu{1/2} Tu
+4	e79de05d	72	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tu{0/2} Tu Tu{1/2} Tu C C C Tu{1/2} Tu
+4	fd9e7bd7	72	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw Tu{0/2} Tu Tu{1/2} Tu Tw Tw Tu{1/2} Tu
+4	25219235	78	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw Tu C C Tu Tw{1/2} Tw
+4	2ca02aa4	78	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{1/2} Tu Tw Tu{1/2} Tu C C Tu{0/2} Tu Tw
+4	463209e9	78	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	C Tw C Tu{0/2} Tu Tu{1/2} Tu C Tw C Tu{1/2} Tu Tu{0/2} Tu
+4	4ef10747	78	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{1/2} Tu Tw
+4	59bd54f4	78	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	C Tw C Tu{0/2} Tu Tu{1/2} Tu
+4	5b22e4d2	78	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{0/2} Tu Tw
+4	5d8eb36a	78	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw
+4	ca831ffa	78	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#2	C Tw{1/4} Tw C Tw{0/4} Tw C Tw{3/4} Tw C Tw{2/4} Tw
+4	cbf0cafb	78	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu Tu
+4	d0a83f2d	78	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu Tu C Tw{0/2} Tw C Tu Tu
+4	d1d226e0	78	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{0/2} Tu Tw Tu{1/2} Tu C C Tu{1/2} Tu Tw
+4	d7b4d2bd	78	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tw Tw C Tw{0/2} Tw C Tw Tw
+4	daab6059	78	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#2	C Tw{1/4} Tw C Tw{2/4} Tw C Tw{3/4} Tw C Tw{0/4} Tw
+4	11a49d1d	81	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p6:6}#1	Tu{1/3} Tu{2/3} Tu{0/3} Tu Tu Tu{0/3} Tu{1/3} Tu{2/3} Tu Tu Tu{2/3} Tu{0/3} Tu{1/3} Tu Tu
+4	99164a69	81	{p3:12}#1 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#1 ~ {p6:6}#1	Tu{1/3} Tu{2/3} Tu{0/3} Tu Tw Tu{2/3} Tu{0/3} Tu{1/3} Tu Tw Tu{0/3} Tu{1/3} Tu{2/3} Tu Tw
+4	f9a22f1d	81	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#1 ~ {p6:6}#1	C Tw{1/3} Tw{2/3} Tw{0/3} Tw{1/3} Tw C Tw{0/3} Tw{1/3} Tw{2/3} Tw{0/3} Tw C Tw{2/3} Tw{0/3} Tw{1/3} Tw{2/3} Tw
+4	115f98d5	84	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu C
+4	32ebde61	84	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu C Tu{0/2} Tu Tu Tu Tu{1/2} Tu C Tu{1/2} Tu Tu Tu
+4	34da4dc3	84	{cube:4 p3:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tw{0/2} Tw Tw{1/2} Tw
+4	3aaaca19	84	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw Tw
+4	482346f5	84	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw Tw Tu{1/2} Tu C Tu{1/2} Tu Tw Tw
+4	4ba7cdaa	84	{cube:4 p3:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tw{0/2} Tw Tw{1/2} Tw Tu C Tu Tw{1/2} Tw Tw{0/2} Tw
+4	519f2d69	84	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu C Tu{1/2} Tu Tu Tu
+4	9758732d	84	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{1/2} Tu Tw Tw Tu{1/2} Tu C Tu{0/2} Tu Tw Tw
+4	a07de818	84	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{1/2} Tu Tw Tw
+4	a4c47187	84	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu C C Tw{0/2} Tw C C Tu C
+4	04a6dab6	90	{p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tu Tu Tw Tu{1/2} Tu Tw Tu Tu Tw
+4	16e19d2c	90	{p3:12}#1 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#1 ~ {p6:6}#1	Tu{1/3} Tu{2/3} Tu{0/3} Tu Tw Tu{2/3} Tu{0/3} Tu{1/3} Tu{2/3} Tu Tw Tu{1/3} Tu{2/3} Tu{0/3} Tu{1/3} Tu Tw Tu{0/3}
+4	1a6cea51	90	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{1/2} Tu Tw Tu{1/2} Tu C C C Tu{0/2} Tu Tw
+4	1c2b8fb6	90	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{0/2} Tu Tw
+4	208f2516	90	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p6:6}#1	Tu{1/3} Tu{2/3} Tu{0/3} Tu Tu Tu{0/3}
+4	2e3fbee5	90	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw
+4	48fd3821	90	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw Tw Tu{0/2} Tu Tu{1/2} Tu Tw Tw Tw Tu{1/2} Tu
+4	578df92d	90	{p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu Tw{3/4} Tw Tu Tw{2/4} Tw Tu Tw{1/4} Tw Tu Tw{0/4} Tw
+4	5b0c1f1b	90	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{0/2} Tu Tu Tu Tu{1/2} Tu Tw
+4	7ad8df92	90	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw Tu C C C Tu Tw{1/2} Tw
+4	8faf5a70	90	{p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu Tw{3/4} Tw Tu Tw{0/4} Tw Tu Tw{1/4} Tw Tu Tw{2/4} Tw
+4	9266cf02	90	{p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{0/2} Tu Tu Tu Tu{1/2} Tu Tw Tu{1/2} Tu Tu Tu Tu{0/2} Tu Tw
+4	bf959a59	90	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{1/2} Tu Tw
+4	d0b1d02c	90	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{0/2} Tu Tw Tu{1/2} Tu C C C Tu{1/2} Tu Tw
+4	d0dfa343	90	{p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw Tw Tw Tu{1/2} Tu
+4	02ea5b06	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tw
+4	386b3c67	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tu{1/2} Tu C Tw C Tu{1/2} Tu Tw Tu{0/2} Tu
+4	3b7aff45	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tw Tu{1/2} Tu C Tw
+4	5438cd5f	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tu{1/2} Tu
+4	59584e29	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tw{0/2} Tw C Tw{1/2} Tw Tu C Tu Tw{1/2} Tw C Tw{0/2} Tw
+4	59f2d7a5	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu Tu Tu
+4	74653424	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw C Tw
+4	af3524fd	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu Tu Tu C Tw{0/2} Tw C Tu Tu Tu
+4	ecfd166b	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tw{0/2} Tw C Tw{1/2} Tw
+4	ee01849d	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tu{0/2} Tu
+4	f667c9f9	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tu{0/2} Tu C Tw C Tu{1/2} Tu Tw Tu{1/2} Tu
+4	ff85ad48	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw C Tw Tu{1/2} Tu C Tu{1/2} Tu Tw C Tw
+4	1eb775c9	102	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{1/2} Tu Tw Tw Tw
+4	43a6c865	102	{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tu Tw{0/2} Tw Tu Tu C Tu Tu Tw{1/2} Tw Tu
+4	6841248f	102	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{1/2} Tu Tw Tw Tw Tu{1/2} Tu C Tu{0/2} Tu Tw Tw Tw
+4	89a44a08	102	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw Tw Tw Tu{1/2} Tu C Tu{1/2} Tu Tw Tw Tw
+4	a601f6ce	102	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tu{0/2} Tu Tw Tw Tw
+4	ca924bc0	102	{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C Tu Tu Tw{0/2} Tw Tu
+4	32d3d020	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw{0/2} Tw
+4	35edaf42	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu{0/2} Tu Tw{0/2} Tw C C Tw{0/2} Tw
+4	59076a38	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu{1/2} Tu Tw{0/2} Tw C C Tw{1/2} Tw
+4	68dc873d	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw{0/2} Tw Tw{1/2} Tw C C Tu{0/2} Tu Tu{1/2} Tu C C Tw{1/2} Tw Tw{0/2} Tw C C Tu{1/2} Tu
+4	71dfc1ed	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw{0/2} Tw Tw{1/2} Tw C C Tu{1/2} Tu
+4	88acc781	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu{0/2} Tu Tw{1/2} Tw C C Tw{1/2} Tw Tu{1/2} Tu C C Tu{1/2} Tu Tw{0/2} Tw C C Tw{0/2} Tw
+4	91533ad5	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu{1/2} Tu Tw{1/2} Tw C C Tw{0/2} Tw Tu{1/2} Tu C C Tu{0/2} Tu Tw{0/2} Tw C C Tw{1/2} Tw
+4	d34063eb	120	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw{0/2} Tw Tu{1/2} Tu C C Tw{1/2} Tw
+4	4b353ca8	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tw{0/2} Tw Tu{1/2} Tu C C C Tw{1/2} Tw
+4	58befdd9	144	{p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu Tu Tu Tu{1/2} Tu Tw{0/2} Tw Tw Tw Tw{1/2} Tw Tu{1/2} Tu Tu Tu Tu{0/2} Tu Tw{1/2} Tw Tw Tw Tw{0/2} Tw
+4	6c4d4464	144	{p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu Tu Tu Tu{1/2} Tu Tw{0/2} Tw Tw Tw Tw{1/2} Tw
+4	7f26cf8f	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tu{0/2} Tu Tw{1/2} Tw C C C Tw{1/2} Tw Tu{1/2} Tu C C C Tu{1/2} Tu Tw{0/2} Tw C C C Tw{0/2} Tw
+4	85bf561b	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tu{1/2} Tu Tw{0/2} Tw C C C Tw{1/2} Tw
+4	8e622e00	144	{p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw{1/2} Tw Tu Tu Tw{0/2} Tw Tu{1/2} Tu Tw Tw
+4	9ab40edb	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tw{0/2} Tw
+4	9b50ab7a	144	{p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu Tw{1/2} Tw Tu Tu Tw{1/2} Tw Tu{1/2} Tu Tw Tw Tu{1/2} Tu Tw{0/2} Tw Tu Tu Tw{0/2} Tw Tu{0/2} Tu Tw Tw
+4	bb54ad24	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tu{1/2} Tu Tw{1/2} Tw C C C Tw{0/2} Tw Tu{1/2} Tu C C C Tu{0/2} Tu Tw{0/2} Tw C C C Tw{1/2} Tw
+4	e4f8791f	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tw{0/2} Tw Tw{1/2} Tw C C C Tu{0/2} Tu Tu{1/2} Tu C C C Tw{1/2} Tw Tw{0/2} Tw C C C Tu{1/2} Tu
+4	ecaaf152	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tw{0/2} Tw Tw{1/2} Tw C C C Tu{1/2} Tu
+4	f21399b1	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C C Tu{0/2} Tu Tw{0/2} Tw C C C Tw{0/2} Tw
+4	42ee5cbc	168	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C Tu{1/2} Tu Tu Tu
+4	4cd86fe2	168	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tw{0/2} Tw Tu Tu Tw{0/2} Tw C Tu{1/2} Tu Tw Tw Tu{1/2} Tu C Tw{1/2} Tw Tu Tu Tw{1/2} Tw C Tu{0/2} Tu Tw Tw
+4	c4f05957	168	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C Tw{0/2} Tw Tu Tu Tw{1/2} Tw C Tu{1/2} Tu Tw Tw
+4	ea37d1fe	168	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{0/2} Tu C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C Tu{0/2} Tu Tu Tu Tu{1/2} Tu C Tw{1/2} Tw Tw Tw Tw{0/2} Tw C Tu{1/2} Tu Tu Tu
+5	7ddcea74	90	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2	Tu{1/3} Tu C Tu{0/3} Tu Tu{2/3} Tu C Tu{1/3} Tu Tu{0/3} Tu C Tu{2/3} Tu
+5	0c883ebc	96	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{1/2} Tu Tw Tw
+5	169c72c6	96	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C Tu{1/2} Tu Tu Tu Tu{0/2} Tu C C Tu{0/2} Tu Tu Tu
+5	2441388f	96	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw Tw{1/2} Tw Tu C C Tu Tw{1/2} Tw Tw{0/2} Tw
+5	2680c97f	96	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{0/2} Tu Tw Tw Tu{0/2} Tu C C Tu{1/2} Tu Tw Tw
+5	3c38f756	96	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw Tw{1/2} Tw
+5	43c62f21	96	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{1/2} Tu Tw Tw Tu{0/2} Tu C C Tu{0/2} Tu Tw Tw
+5	55c241b8	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tw Tw C Tu{1/2} Tu Tu{0/2} Tu C Tw Tw C Tu{0/2} Tu
+5	90d6cbb7	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tu Tu C Tu{0/2} Tu
+5	d2f7fef0	96	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tw Tw C Tu{0/2} Tu
+5	f45e62bc	96	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C Tu{0/2} Tu Tu Tu
+5	f5b893ac	96	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{0/2} Tu Tw Tw
+5	d61ae916	99	{p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu Tw{2/3} Tw Tw{1/3} Tw Tu Tw{0/3} Tw Tw{2/3} Tw Tu Tw{1/3} Tw Tw{0/3} Tw
+5	04653d91	102	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu Tu C C Tw{0/2} Tw C C Tu Tu C
+5	353e4c23	102	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	C Tw C C Tu{0/2} Tu Tu{1/2} Tu C C Tw C C Tu{1/2} Tu Tu{0/2} Tu C
+5	5a3953a6	102	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tw Tw C C Tw{0/2} Tw C C Tw Tw C
+5	63da8096	102	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu Tu C
+5	9afc3290	102	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#2	C Tw{1/4} Tw C C Tw{2/4} Tw C C Tw{3/4} Tw C C Tw{0/4} Tw C
+5	be690c75	102	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	C Tw C C Tu{0/2} Tu Tu{1/2} Tu C
+5	14c2fc55	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{1/2} Tu Tw Tw Tu{0/2} Tu C C C Tu{0/2} Tu Tw Tw
+5	2e468d85	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw C Tw{1/2} Tw Tu C C Tu Tw{1/2} Tw C Tw{0/2} Tw
+5	330f916d	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw C Tw{0/2} Tw
+5	47762774	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{0/2} Tu Tw Tw
+5	4ae4d585	108	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw Tw{1/2} Tw
+5	5465f5a8	108	{p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu Tw Tu Tu Tw Tu{0/2} Tu
+5	6370d313	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw C Tw{0/2} Tw Tu C C Tu Tw{1/2} Tw C Tw{1/2} Tw
+5	7aef16fd	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tw{0/2} Tw C Tw{1/2} Tw
+5	8dd3adb5	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{0/2} Tu Tw C Tw
+5	a7c331b9	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{1/2} Tu Tw C Tw Tu{0/2} Tu C C Tu{0/2} Tu Tw C Tw
+5	a8247f95	108	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw Tw{1/2} Tw Tu C C C Tu Tw{1/2} Tw Tw{0/2} Tw
+5	b5c3baf4	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{1/2} Tu Tw C Tw
+5	dc357139	108	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{0/2} Tu Tw C Tw Tu{0/2} Tu C C Tu{1/2} Tu Tw C Tw
+5	de9794cf	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C C Tu{0/2} Tu Tu Tu
+5	dece0140	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{1/2} Tu Tw Tw
+5	e60699d4	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{0/2} Tu Tw Tw Tu{0/2} Tu C C C Tu{1/2} Tu Tw Tw
+5	e723ed02	108	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C C Tu{1/2} Tu Tu Tu Tu{0/2} Tu C C C Tu{0/2} Tu Tu Tu
+5	0e6cf109	114	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{0/2} Tu Tw Tw Tw
+5	1058896b	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{0/2} Tw C Tu Tu
+5	1e3dd05c	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	C Tw C Tu{0/2} Tu Tu Tu Tu{1/2} Tu
+5	2a8d71ab	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C Tu Tu C Tu{0/2} Tu Tw
+5	32ccc08f	114	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{1/2} Tu Tw Tw Tw Tu{0/2} Tu C C Tu{0/2} Tu Tw Tw Tw
+5	393e41a8	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tu{0/2} Tu C Tw C Tu{1/2} Tu Tw Tw Tu{1/2} Tu
+5	3d02f7be	114	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{1/2} Tu Tw Tw Tw
+5	6c591325	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{0/2} Tw C Tu Tu C Tw{0/2} Tw Tu Tw{1/2} Tw C Tu Tu
+5	73f8367a	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{1/2} Tw C Tu Tu
+5	747b1bc0	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	C Tw C Tu{0/2} Tu Tu Tu Tu{1/2} Tu C Tw C Tu{1/2} Tu Tu Tu Tu{0/2} Tu
+5	7758d5a6	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tu{0/2} Tu
+5	780525a7	114	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tu{0/2} Tu Tw Tw Tw Tu{0/2} Tu C C Tu{1/2} Tu Tw Tw Tw
+5	7ce53bc6	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{1/2} Tw C Tu Tu C Tw{0/2} Tw Tu Tw{0/2} Tw C Tu Tu
+5	a5ac8108	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C Tu Tw Tw Tu C Tw{0/2} Tw C Tu Tw Tw Tu
+5	adc7971e	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tu{1/2} Tu C Tw C Tu{1/2} Tu Tw Tw Tu{0/2} Tu
+5	b508454e	114	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tu Tw{0/2} Tw Tu Tu C C Tu Tu Tw{1/2} Tw Tu
+5	bdb35d06	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C Tu Tu C Tu{0/2} Tu Tw Tu{0/2} Tu C Tu Tu C Tu{1/2} Tu Tw
+5	c9135a8c	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tw Tw Tw C Tu{0/2} Tu
+5	d648b9b7	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tu{1/2} Tu
+5	d75b38db	114	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tw Tw Tw C Tu{1/2} Tu Tu{0/2} Tu C Tw Tw Tw C Tu{0/2} Tu
+5	f741f88c	114	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C Tu Tu Tw{0/2} Tw Tu
+5	6aff60f5	117	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{1/3} Tu C Tu{0/3} Tu Tw Tu{2/3} Tu C Tu{1/3} Tu Tw Tu{0/3} Tu C Tu{2/3} Tu Tw
+5	08657120	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw C Tw{0/2} Tw
+5	0faf8ac7	120	{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C Tw Tu{1/2} Tu Tu Tu Tu{0/2} Tu Tw
+5	28de13f4	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{1/2} Tu Tw C Tw Tu{0/2} Tu C C C Tu{0/2} Tu Tw C Tw
+5	49ca413b	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw C Tw{0/2} Tw Tu C C C Tu Tw{1/2} Tw C Tw{1/2} Tw
+5	4d772abb	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu Tu Tu C
+5	59b15d6b	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C C Tu{0/2} Tu Tw Tu{1/2} Tu C C Tw C C Tu{1/2} Tu Tw Tu{0/2} Tu C
+5	7772bafb	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu Tu Tu C C Tw{0/2} Tw C C Tu Tu Tu C
+5	821620a6	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tw Tu{0/2} Tu C C Tw
+5	97a5ea91	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw C Tw{1/2} Tw
+5	b0937156	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C C Tu{0/2} Tu Tw Tu{1/2} Tu C
+5	bf87ca4c	120	{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C Tw Tu{1/2} Tu Tu Tu Tu{0/2} Tu Tw C Tw Tu{0/2} Tu Tu Tu Tu{1/2} Tu Tw
+5	c5fe4e3f	120	{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw Tw Tu{0/2} Tu Tu{1/2} Tu Tw Tw C Tw Tw Tu{1/2} Tu Tu{0/2} Tu Tw Tw
+5	cd7918be	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C C Tu{0/2} Tu Tw Tu{0/2} Tu C C Tw C C Tu{1/2} Tu Tw Tu{1/2} Tu C
+5	cd9d159c	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tw
+5	d9de4495	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tw{0/2} Tw C Tw{1/2} Tw Tu C C C Tu Tw{1/2} Tw C Tw{0/2} Tw
+5	dd4d5bbd	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C C Tu{0/2} Tu Tw Tu{0/2} Tu C
+5	dec970b8	120	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw Tw Tu Tw{0/2} Tw
+5	e20d94c8	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{1/2} Tu Tw C Tw
+5	eac33623	120	{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw Tw Tu{0/2} Tu Tu{1/2} Tu Tw Tw
+5	eb471063	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{0/2} Tu Tw C Tw
+5	f61111bf	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{0/2} Tu Tw C Tw Tu{0/2} Tu C C C Tu{1/2} Tu Tw C Tw
+5	fb748cc3	120	{cube:4 p3:2 p6:2}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw Tw Tu Tw{0/2} Tw C Tw{0/2} Tw Tu Tw Tw Tu Tw{1/2} Tw
+5	0de59e73	126	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{1/2} Tu Tw Tw Tw Tu{0/2} Tu C C C Tu{0/2} Tu Tw Tw Tw
+5	146b0a73	126	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{1/2} Tu Tw Tw Tw
+5	38fa1424	126	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw Tu
+5	40639754	126	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{0/2} Tu Tw Tw Tw
+5	cd8b3f29	126	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tu{0/2} Tu Tw Tw Tw Tu{0/2} Tu C C C Tu{1/2} Tu Tw Tw Tw
+5	ea896165	126	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw Tu Tu C C C Tu Tu Tw{1/2} Tw Tu
+5	01441ce0	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{0/2} Tw C Tu Tu Tu
+5	084ec354	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tu C Tu Tu Tw{0/2} Tw
+5	0a580369	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tw Tu{0/2} Tu
+5	0db8a4dd	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tu
+5	122d4dce	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{1/2} Tw C Tu Tu Tu C Tw{0/2} Tw Tu Tw{0/2} Tw C Tu Tu Tu
+5	1f5c0af2	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tu C Tu Tu Tw{1/2} Tw
+5	230e2063	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tu C Tw{0/2} Tw Tu Tu
+5	278b89d1	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tw Tu{1/2} Tu
+5	4bf93ea3	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tu C Tu Tu Tw{0/2} Tw C Tw{0/2} Tw Tu Tu C Tu Tu Tw{1/2} Tw
+5	80972653	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tu C Tu Tu Tw{1/2} Tw C Tw{0/2} Tw Tu Tu C Tu Tu Tw{0/2} Tw
+5	845f3e8f	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{0/2} Tw C Tu Tu Tu C Tw{0/2} Tw Tu Tw{1/2} Tw C Tu Tu Tu
+5	9be40e81	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{1/2} Tw C Tu Tu Tu
+5	b1cba0dd	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tw Tu{0/2} Tu C Tw C Tu{1/2} Tu Tw Tw Tw Tu{1/2} Tu
+5	b51469b2	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C Tu{0/2} Tu Tw Tw Tw Tu{1/2} Tu C Tw C Tu{1/2} Tu Tw Tw Tw Tu{0/2} Tu
+5	3e8b0a71	180	{p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu Tw{3/4} Tw Tu{0/2} Tu Tw{0/4} Tw Tu{1/2} Tu Tw{1/4} Tw Tu{0/2} Tu Tw{2/4} Tw Tu{1/2}
+5	8ea881a1	180	{p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu Tw{3/4} Tw Tu{0/2} Tu Tw{0/4} Tw Tu{0/2} Tu Tw{1/4} Tw Tu{0/2} Tu Tw{2/4} Tw Tu{0/2}
+5	2eb73bdb	192	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C C Tu{0/2} Tu Tu Tu
+5	4b3cf2f0	192	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tw Tw C Tu{0/2} Tu Tw{0/2} Tw C Tu Tu C Tw{1/2} Tw
+5	58f51adc	192	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tw Tw C Tu{1/2} Tu Tw{0/2} Tw C Tu Tu C Tw{0/2} Tw Tu{0/2} Tu C Tw Tw C Tu{0/2} Tu Tw{1/2} Tw C Tu Tu C Tw{1/2} Tw
+5	6f0b6d79	192	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tu Tu C Tu{0/2} Tu Tw{1/2} Tw C Tw Tw C Tw{0/2} Tw Tu{0/2} Tu C Tu Tu C Tu{1/2} Tu Tw{0/2} Tw C Tw Tw C Tw{1/2} Tw
+5	87e014a0	192	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C Tu Tu C Tu{0/2} Tu Tw{1/2} Tw C Tw Tw C Tw{0/2} Tw
+5	975df511	192	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C C Tu{1/2} Tu Tu Tu Tu{0/2} Tu C C Tw{1/2} Tw Tw Tw Tw{0/2} Tw C C Tu{0/2} Tu Tu Tu
+5	db22cf80	192	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tw{0/2} Tw Tu Tu Tw{1/2} Tw C C Tu{0/2} Tu Tw Tw
+5	f82dc3c8	192	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tw{0/2} Tw Tu Tu Tw{0/2} Tw C C Tu{0/2} Tu Tw Tw Tu{0/2} Tu C C Tw{1/2} Tw Tu Tu Tw{1/2} Tw C C Tu{1/2} Tu Tw Tw
+5	569525c4	216	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C C C Tu{0/2} Tu Tu Tu
+5	6193b291	216	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tw{0/2} Tw Tu Tu Tw{1/2} Tw C C C Tu{0/2} Tu Tw Tw
+5	a4ebf1ad	216	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	Tu{1/2} Tu C C C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C C C Tu{1/2} Tu Tu Tu Tu{0/2} Tu C C C Tw{1/2} Tw Tw Tw Tw{0/2} Tw C C C Tu{0/2} Tu Tu Tu
+5	d1195249	216	{p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{0/4} Tu Tw{2/4} Tw Tu{1/4} Tu Tw{3/4} Tw Tu{2/4} Tu Tw{0/4} Tw Tu{3/4} Tu Tw{1/4} Tw
+5	fb09d21b	216	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C C Tw{0/2} Tw Tu Tu Tw{0/2} Tw C C C Tu{0/2} Tu Tw Tw Tu{0/2} Tu C C C Tw{1/2} Tw Tu Tu Tw{1/2} Tw C C C Tu{1/2} Tu Tw Tw
+6	23c34ad0	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw Tw C C Tu{0/2} Tu Tu{1/2} Tu C C Tw Tw C C Tu{1/2} Tu
+6	3de4e8c0	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw Tw C C Tu{1/2} Tu
+6	fb54443d	120	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu Tu C C Tu{1/2} Tu
+6	0609a470	132	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C Tw Tu Tu Tw C Tu{1/2} Tu
+6	15104ae0	132	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{1/2} Tu Tw Tu Tu Tw
+6	556e09c9	132	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C C Tu Tw{0/2} Tw Tw Tw Tw{1/2} Tw Tu
+6	6795bedf	132	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C C Tu Tu Tw{0/2} Tw Tw{1/2} Tw Tu Tu
+6	7f3d9f39	132	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C C Tu Tw{0/2} Tw Tw Tw Tw{1/2} Tw Tu C C Tu Tw{1/2} Tw Tw Tw Tw{0/2} Tw Tu
+6	d4443326	132	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C C Tu Tu Tw{0/2} Tw Tw{1/2} Tw Tu Tu C C Tu Tu Tw{1/2} Tw Tw{0/2} Tw Tu Tu
+6	dccdac2a	132	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{0/2} Tu Tw Tu Tu Tw Tu{1/2} Tu C C Tu{1/2} Tu Tw Tu Tu Tw
+6	07276789	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw Tw Tw C C Tu{1/2} Tu
+6	36278a2a	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	C Tu C C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C
+6	3ee1665f	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3	C Tw{1/2} Tw C C Tu Tw Tw Tu C C Tw{0/2} Tw C C Tu Tw Tw Tu C
+6	61a9efa6	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu Tu C C Tu{1/2} Tu Tw
+6	6505c9b4	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw C C Tu{1/2} Tu Tw
+6	7c00d281	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tw{0/2} Tw C
+6	8e6472d8	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw C C Tu{0/2} Tu Tw
+6	8efedcb1	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw C C Tu{1/2} Tu Tw Tu{1/2} Tu C C Tw Tw C C Tu{0/2} Tu Tw
+6	941df613	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw Tw Tw C C Tu{0/2} Tu Tu{1/2} Tu C C Tw Tw Tw C C Tu{1/2} Tu
+6	99f25983	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tw{1/2} Tw C C Tu C C Tw{1/2} Tw Tu Tu Tw{0/2} Tw C
+6	acf8cb59	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw C C Tu{0/2} Tu Tw Tu{1/2} Tu C C Tw Tw C C Tu{1/2} Tu Tw
+6	c065d746	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu Tu C C Tu{1/2} Tu Tw Tu{1/2} Tu C C Tu Tu C C Tu{0/2} Tu Tw
+6	c30209cf	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tw{1/2} Tw C
+6	d71b2aef	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tw{0/2} Tw C C Tu C C Tw{1/2} Tw Tu Tu Tw{1/2} Tw C
+6	f24ae74d	138	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2	C Tu C C Tw{0/2} Tw Tw Tw Tw{1/2} Tw C C Tu C C Tw{1/2} Tw Tw Tw Tw{0/2} Tw C
+6	0968e39d	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{0/2} Tu Tw Tu Tu Tw Tu{1/2} Tu C C C Tu{1/2} Tu Tw Tu Tu Tw
+6	0c6ab310	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{0/2} Tu Tw Tw C Tw Tw Tu{1/2} Tu C C Tu{1/2} Tu Tw Tw C Tw Tw
+6	1b448676	144	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu C C C Tu Tw{0/2} Tw Tw Tw Tw{1/2} Tw
+6	2162833b	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C C Tu Tu Tw{0/2} Tw C Tw{1/2} Tw Tu Tu
+6	4d010955	144	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw Tw{1/2} Tw Tu
+6	5635f49a	144	{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{1/2} Tu Tw Tu Tu Tw
+6	56d2036a	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{0/2} Tu Tw Tw C Tw Tw
+6	624d1137	144	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu C C C Tu Tw{0/2} Tw Tw Tw Tw{1/2} Tw Tu C C C Tu Tw{1/2} Tw Tw Tw Tw{0/2} Tw
+6	7a7883c2	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C C Tu Tu Tw{0/2} Tw C Tw{0/2} Tw Tu Tu
+6	a141aa4a	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C C Tu Tu Tw{0/2} Tw C Tw{0/2} Tw Tu Tu C C Tu Tu Tw{1/2} Tw C Tw{1/2} Tw Tu Tu
+6	d1267a07	144	{cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw Tw{1/2} Tw Tu Tu C C C Tu Tu Tw{1/2} Tw Tw{0/2} Tw Tu
+6	e8060f0b	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{1/2} Tu Tw Tw C Tw Tw
+6	f3c62444	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tu{1/2} Tu Tw Tw C Tw Tw Tu{1/2} Tu C C Tu{0/2} Tu Tw Tw C Tw Tw
+6	f4f9ef61	144	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C C Tu Tu Tw{0/2} Tw C Tw{1/2} Tw Tu Tu C C Tu Tu Tw{1/2} Tw C Tw{0/2} Tw Tu Tu
+6	0c006590	150	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{0/2} Tw C Tu Tw Tw Tu
+6	51fc6063	150	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C Tw{0/2} Tw Tu Tw Tw Tu Tw{1/2} Tw C Tu C Tw{1/2} Tw Tu Tw Tw Tu Tw{0/2} Tw
+6	9678edc5	150	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw{1/2} Tw Tu Tw{1/2} Tw C Tu Tw Tw Tu C Tw{0/2} Tw Tu Tw{0/2} Tw C Tu Tw Tw Tu
+6	ed29d549	150	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C Tw{0/2} Tw Tu Tw Tw Tu Tw{1/2} Tw
+6	0880a03d	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw Tw C C Tu{0/2} Tu Tw
+6	0c25fa9c	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw Tu{1/2} Tu C C Tw Tw
+6	1bda3ce4	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{1/2} Tu Tw Tw C Tw Tw
+6	424bc881	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw Tw C C Tu{0/2} Tu Tw Tu{1/2} Tu C C Tw Tw Tw C C Tu{1/2} Tu Tw
+6	6534732c	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tu Tw{1/2} Tw C C Tu C C Tw{1/2} Tw Tu Tu Tu Tw{0/2} Tw C
+6	661f3188	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw C Tw{0/2} Tw Tu Tu C C C Tu Tu Tw{1/2} Tw C Tw{1/2} Tw Tu
+6	77534536	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw C Tw{0/2} Tw Tu
+6	7c877df8	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tu Tw{0/2} Tw C
+6	8a55cc60	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw
+6	8f65d020	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw Tw C C Tu{1/2} Tu Tw
+6	b47281b5	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw C Tw{1/2} Tw Tu Tu C C C Tu Tu Tw{1/2} Tw C Tw{0/2} Tw Tu
+6	c0678b1a	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{0/2} Tu Tw Tw C Tw Tw
+6	cadb754e	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tu Tw{0/2} Tw C C Tu C C Tw{1/2} Tw Tu Tu Tu Tw{1/2} Tw C
+6	cccf32f8	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu C C C Tu Tu Tw{0/2} Tw C Tw{1/2} Tw Tu
+6	d2c8052e	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{1/2} Tu Tw Tw C Tw Tw Tu{1/2} Tu C C C Tu{0/2} Tu Tw Tw C Tw Tw
+6	d774e09f	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C C Tu{0/2} Tu Tw Tw C Tw Tw Tu{1/2} Tu C C C Tu{1/2} Tu Tw Tw C Tw Tw
+6	db234aa6	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{0/2} Tu C C Tw Tw Tw C C Tu{1/2} Tu Tw Tu{1/2} Tu C C Tw Tw Tw C C Tu{0/2} Tu Tw
+6	e07bb21b	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tu C C Tw{0/2} Tw Tu Tu Tu Tw{1/2} Tw C
+6	4f273244	168	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C Tw{2/4} Tw Tu Tw{3/4} Tw
+6	bd16be1e	168	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C Tw{2/4} Tw Tu Tw{1/4} Tw
+6	bd311607	168	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C Tw{2/4} Tw Tu Tw{3/4} Tw C Tw{0/4} Tw Tu Tw{1/4} Tw
+6	fd08f56f	168	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C Tw{2/4} Tw Tu Tw{1/4} Tw C Tw{0/4} Tw Tu Tw{3/4} Tw
+6	4008aa93	240	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw Tw C C Tu{1/2} Tu Tw{1/2} Tw C C Tu Tu C C Tw{0/2} Tw
+6	42b7eb7f	240	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu Tu C C Tu{1/2} Tu Tw{0/2} Tw C C Tw Tw C C Tw{1/2} Tw
+6	4777e62e	240	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tu Tu C C Tu{1/2} Tu Tw{0/2} Tw C C Tw Tw C C Tw{1/2} Tw Tu{1/2} Tu C C Tu Tu C C Tu{0/2} Tu Tw{1/2} Tw C C Tw Tw C C Tw{0/2} Tw
+6	b34a4cae	240	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3	Tu{0/2} Tu C C Tw Tw C C Tu{0/2} Tu Tw{1/2} Tw C C Tu Tu C C Tw{1/2} Tw Tu{1/2} Tu C C Tw Tw C C Tu{1/2} Tu Tw{0/2} Tw C C Tu Tu C C Tw{0/2} Tw
+7	75072b91	156	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3	Tu{1/2} Tu C C Tw Tu Tu Tw C C Tu{0/2} Tu
+7	1b75bf53	174	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C C Tu{0/2} Tu Tw Tu Tu Tw Tu{1/2} Tu C C Tw C C Tu{1/2} Tu Tw Tu Tu Tw Tu{0/2} Tu C
+7	286c851a	174	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tw Tu Tu Tw C C Tu{0/2} Tu Tw Tu{0/2} Tu C C Tw Tu Tu Tw C C Tu{1/2} Tu Tw
+7	41c63733	174	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	C Tw C C Tu{0/2} Tu Tw Tu Tu Tw Tu{1/2} Tu C
+7	50591c04	174	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1	Tu{1/2} Tu C C Tw Tu Tu Tw C C Tu{0/2} Tu Tw
+7	4389d05e	192	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C C Tw{3/4} Tw Tu Tw{2/4} Tw
+7	daafdfaa	192	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C C Tw{3/4} Tw Tu Tw{0/4} Tw C C Tw{1/4} Tw Tu Tw{2/4} Tw
+7	37435038	336	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{1/2} Tu Tw{3/4} Tw C Tw{2/4} Tw Tu{0/2} Tu Tw{3/4} Tw C Tw{2/4} Tw
+7	5818f475	336	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{1/2} Tu Tw{3/4} Tw C Tw{2/4} Tw
+7	d3124c51	336	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{1/2} Tu Tw{3/4} Tw C Tw{0/4} Tw Tu{0/2} Tu Tw{1/4} Tw C Tw{2/4} Tw
+7	f7d2f5d3	336	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	Tu{1/2} Tu Tw{3/4} Tw C Tw{0/4} Tw Tu{1/2} Tu Tw{1/4} Tw C Tw{2/4} Tw
+8	4048617f	384	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C C Tw{3/4} Tw Tu{0/2} Tu Tw{0/4} Tw C C Tw{1/4} Tw Tu{1/2} Tu Tw{2/4} Tw
+8	7af2941d	384	{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2	C C Tw{3/4} Tw Tu{0/2} Tu Tw{0/4} Tw C C Tw{1/4} Tw Tu{0/2} Tu Tw{2/4} Tw

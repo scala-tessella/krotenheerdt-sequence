@@ -1,0 +1,1 @@
+period-2 windows 103; kinds 11: C|C -> 18; C|hexagon face -> 16; C|plain -> 25; hexagon|hexagon cross -> 20; hexagon|hexagon same axis aligned -> 19; hexagon|hexagon same axis offset -> 21; mid-level of a kagome pair -> 21; plain|hexagon face cross -> 27; plain|hexagon face same axis -> 28; plain|plain cross -> 29; plain|plain same axis -> 30

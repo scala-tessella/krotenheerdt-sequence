@@ -15,12 +15,14 @@ import java.nio.file.{Files, Path, Paths}
   * folded parts), so a k-tuple's verdict is the connectivity of a k-vertex graph read off the k(k−1)/2
   * per-subgroup-pair tables. What the gate trusts operationally is not the theorem but THIS IMPLEMENTATION,
   * cross-validated at k = 4 against independent SAT refutation: 271,821 table-certified tuples, zero
-  * disagreements. The census rows of the paper were produced with the gate off (`-Dcensus.gate=off`).
+  * disagreements. The gate rests on a theorem the paper does not state, so it is OFF by default and every
+  * census run of this artifact is exhaustive, as the census rows of the paper were; `-Dcensus.gate=conn`
+  * turns it on to trade that independence for speed.
   *
   * CANONICALIZATION DRIFT IS THE CORRECTNESS RISK, so there is exactly one of everything here: one
-  * [[canonicalSubs]], one [[buildTable]], one [[Gate.connOK]]. `ConnTableSweep` is a driver over this object
-  * rather than a second copy of it — a gate that indexed subgroups differently from the builder would skip
-  * live tuples silently, and no downstream count would look wrong.
+  * [[canonicalSubs]], one [[buildTable]], one [[Gate.connOK]]. A driver over this object is a driver, not a
+  * second copy of it — a gate that indexed subgroups differently from the builder would skip live tuples
+  * silently, and no downstream count would look wrong.
   *
   * Tables live under `target/conn-tables/` (a cache, rebuilt on a clean checkout). Each carries the canonical
   * subgroup-order line of both species; the gate re-verifies it against the live lattice on load, so a
@@ -31,10 +33,10 @@ object ConnGate:
 
   private val tableDir = "target/conn-tables"
 
-  /** `-Dcensus.gate=conn|off` (default `conn`). `conn` skips theorem-certified tuples; `off` reproduces the
-    * pre-gate behaviour, which is what the census certificates of the paper were produced with.
+  /** `-Dcensus.gate=conn|off` (default `off`). `off` sweeps every tuple, as the census rows of the paper did;
+    * `conn` skips the tuples the connectivity theorem certifies empty.
     */
-  def mode: String = sys.props.get("census.gate").map(_.trim.toLowerCase).getOrElse("conn")
+  def mode: String = sys.props.get("census.gate").map(_.trim.toLowerCase).getOrElse("off")
 
   /** True when the gate is on. */
   def enabled: Boolean = mode == "conn"
