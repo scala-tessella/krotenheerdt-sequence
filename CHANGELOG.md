@@ -14,3 +14,21 @@ symmetries and the enumeration of the words with every cut; the star-table facts
 the census rows k = 2, 3, 4 with their drivers; the prismatic lifts and the planar sequence re-derived by the
 SAT assembler; the enumeration rows k = 4 to 10 against their known classes and the dossier of every class
 from k = 5 on. The fast tier runs under `sbt test`; the long runs are opt-in and write `certs/`.
+
+### Added
+
+- `HexagonNecklaces` and `HexagonNecklacesSpec`: the hexagon-world necklaces, words over the quarter-cubic
+  slab in its two placements and the kagome prism layer, 3, 6, 4 at k = 2, 3, 4 and none beyond, matched to
+  the thirteen hexagon-world classes of the census.
+- `WorldsTableSpec`: the admissible sets sorted by world, the k = 4 row opt-in (`-Dworlds=4`).
+- The enumeration rows k = 2 and 3, and the count of two-direction words W_k asserted and written in every row's
+  certificate.
+
+### Changed
+
+- `-Denumerate` alone runs the rows 2 to 10.
+- The k = 4 census battery: the band pair on {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3
+  is realized by the filter of `research-core 0.13.1`, so all twelve band symbols are pinned realized; every
+  set is checked before the battery reports, so one stale pin cannot hide the others.
+- The certificates of the chain: `enumeration-k2` to `enumeration-k10`, `dossiers-k5` to `dossiers-k8`, the
+  lifts, the planar sequence and the census rows, regenerated under the cuts of the paper.

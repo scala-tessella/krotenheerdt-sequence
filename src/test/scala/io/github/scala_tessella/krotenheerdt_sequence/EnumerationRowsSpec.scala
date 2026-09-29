@@ -8,20 +8,30 @@ import java.nio.file.{Files, Path}
 /** THE ENUMERATION ROWS: the exact enumeration of the stacking words, row by row, over the hexagon periods 2,
   * 3 and 4 with segments of at most 2k layers and words of at most 8k (the paper's level-orbit bound), under
   * every cut the paper proves. Each row must return exactly its known classes (`KnownRows`: tag, chambers,
-  * species, k), no more and no fewer — at k = 8 the two 8-uniform classes, at k = 9 and 10 none; the rows 1
-  * to 4 are the census classes that are stacking words, the census itself being `SymbolK*CensusSpec`. Every
-  * run writes `certs/enumeration-k<k>.txt`: its classes with a word each, and the work done.
+  * species, k), no more and no fewer — at k = 8 the two 8-uniform classes, at k = 9 and 10 none. Among them
+  * the two-direction words, those with rows of both axes, are the row W_k of the sequence; the others are the
+  * prismatic lifts whose rows are straight. Every run writes `certs/enumeration-k<k>.txt`: its classes with a
+  * word each, the count of two-direction words, and the work done.
   *
-  * Opt-in and long: `sbt -Denumerate=8 test` (or `-Denumerate=5,6,7`; `-Denumerate` alone runs 4 to 10). On
-  * twelve threads the rows take 9 minutes (k = 4) to about 4 hours (k = 10), about sixteen hours for 5 to 10;
-  * `-Denumerate.threads=N` sets the parallelism (default: every processor).
+  * Opt-in and long: `sbt -Denumerate=8 test` (or `-Denumerate=5,6,7`; `-Denumerate` alone runs 2 to 10). On
+  * twelve threads the rows take seconds (k = 2, 3), 9 minutes (k = 4) to about 3 hours (k = 10), about
+  * fifteen hours for 2 to 10; `-Denumerate.threads=N` sets the parallelism (default: every processor).
   */
 class EnumerationRowsSpec extends AnyFlatSpec with Matchers:
 
   private def rows: Vector[Int] =
     sys.props("enumerate").split(",").map(_.trim).filter(_.nonEmpty).map(_.toInt).toVector match
-      case Vector() => (4 to 10).toVector
+      case Vector() => (2 to 10).toVector
       case chosen   => chosen
+
+  /** W_k: the two-direction stackings of the row, the column of the paper's sequence table. */
+  private val twoDirection: Map[Int, Int] =
+    Map(2 -> 18, 3 -> 50, 4 -> 93, 5 -> 107, 6 -> 68, 7 -> 11, 8 -> 2, 9 -> 0, 10 -> 0)
+
+  /** A word is two-direction when it has rows of both axes (the paper's definition). */
+  private def isTwoDirection(r: KnownRows.Row): Boolean =
+    val axes = r.layers.collect { case Layer.Tri(ax, _, _) => ax }.toSet
+    axes.size == 2
 
   private def say(s: String): Unit = synchronized { println(s); System.out.flush() }
 
@@ -48,16 +58,19 @@ class EnumerationRowsSpec extends AnyFlatSpec with Matchers:
       import scala.jdk.CollectionConverters.*
       val got    = found.values.asScala.toVector.sortBy(r => (r.chambers, r.tag))
       val known  = KnownRows.row(k)
+      val two    = got.count(isTwoDirection)
       val cert   = StringBuilder()
       cert ++=
         s"THE STACKING ENUMERATION, ROW k = $k: periods 2, 3, 4, segments <= ${2 * k}, words <= ${8 * k}\n"
       cert ++=
         s"segments ${stats.nodes}, candidates ${stats.candidates}, builds ${stats.survivors}, ${secs}s on $threads threads\n"
-      cert ++= s"${got.size} classes with $k distinct species (known: ${known.size})\n\n"
+      cert ++= s"${got.size} classes with $k distinct species (known: ${known.size})\n"
+      cert ++= s"two-direction words W_$k = $two, lifts with straight rows ${got.size - two}\n\n"
       for r <- got do cert ++= s"${r.chambers}ch  key ${r.tag}  ${r.species}  word [${r.word}]\n"
       Files.createDirectories(Path.of("certs"))
       Files.writeString(Path.of("certs", s"enumeration-k$k.txt"), cert.toString): Unit
-      say(s"k = $k: ${got.size} classes in ${secs}s")
+      say(s"k = $k: ${got.size} classes, W = $two, in ${secs}s")
       withClue(s"row k = $k: "):
         got.map(r => (r.tag, r.chambers, r.species)).toSet shouldBe
           known.map(r => (r.tag, r.chambers, r.species)).toSet
+        twoDirection.get(k).foreach(w => two shouldBe w)

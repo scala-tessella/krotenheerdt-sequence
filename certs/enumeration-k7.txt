@@ -1,0 +1,15 @@
+THE STACKING ENUMERATION, ROW k = 7: periods 2, 3, 4, segments <= 14, words <= 56
+segments 2081011, candidates 34760052, builds 53986, 10325s on 12 threads
+11 classes with 7 distinct species (known: 11)
+
+156ch  key 75072b91  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3  word [Tu{0/2} Tu C C Tw Tu Tu Tw C C Tu{1/2} Tu]
+174ch  key 1b75bf53  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1  word [C Tw C C Tu{0/2} Tu Tw Tu Tu Tw Tu{1/2} Tu C C Tw C C Tu{1/2} Tu Tw Tu Tu Tw Tu{0/2} Tu C]
+174ch  key 286c851a  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1  word [Tu{0/2} Tu C C Tw Tu Tu Tw C C Tu{1/2} Tu Tw Tu{1/2} Tu C C Tw Tu Tu Tw C C Tu{0/2} Tu Tw]
+174ch  key 41c63733  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1  word [C Tw C C Tu{0/2} Tu Tw Tu Tu Tw Tu{1/2} Tu C]
+174ch  key 50591c04  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1  word [Tu{0/2} Tu C C Tw Tu Tu Tw C C Tu{1/2} Tu Tw]
+192ch  key 4389d05e  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C Tw{3/4} Tw Tu Tw{2/4} Tw C]
+192ch  key daafdfaa  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C Tw{3/4} Tw Tu Tw{0/4} Tw C C Tw{1/4} Tw Tu Tw{2/4} Tw C]
+336ch  key 37435038  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C Tw{3/4} Tw Tu{1/2} Tu Tw{0/4} Tw C Tw{3/4} Tw Tu{0/2} Tu Tw{0/4} Tw]
+336ch  key 5818f475  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C Tw{3/4} Tw Tu{1/2} Tu Tw{0/4} Tw]
+336ch  key d3124c51  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C Tw{3/4} Tw Tu{1/2} Tu Tw{0/4} Tw C Tw{1/4} Tw Tu{0/2} Tu Tw{2/4} Tw]
+336ch  key f7d2f5d3  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C Tw{3/4} Tw Tu{1/2} Tu Tw{0/4} Tw C Tw{1/4} Tw Tu{1/2} Tu Tw{2/4} Tw]

@@ -1,0 +1,6 @@
+THE DOSSIERS OF ROW k = 7
+
+tuple {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 |H| = 2,2,4,4,2,2,4, 156 chambers: 128 sigma0, capped false, 1 minimal keys; known 75072b91 [0s]
+tuple {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:12}#1 ~ {p3:12}#2 |H| = 2,2,4,2,2,2,4, 174 chambers: 512 sigma0, capped false, 4 minimal keys; known 1b75bf53 286c851a 41c63733 50591c04 [3s]
+tuple {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2 |H| = 2,2,2,2,2,2,4, 192 chambers: 256 sigma0, capped false, 2 minimal keys; known 4389d05e daafdfaa [2s]
+tuple {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2 |H| = 1,1,2,1,1,1,2, 336 chambers: 8192 sigma0, capped false, 4 minimal keys; known 37435038 5818f475 d3124c51 f7d2f5d3 [7539s]

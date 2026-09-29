@@ -1,0 +1,4 @@
+THE STACKING ENUMERATION, ROW k = 10: periods 2, 3, 4, segments <= 20, words <= 80
+segments 1989531, candidates 30771589, builds 50711, 11059s on 12 threads
+0 classes with 10 distinct species (known: 0)
+
