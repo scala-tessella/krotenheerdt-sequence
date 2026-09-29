@@ -13,13 +13,12 @@ import SymbolRealizationFilter.realizeK
 
 /** the census k = 4 pinning (transposing `SymbolK3CensusSpec`): THE k = 4 CENSUS IS EXACTLY 130 OVER THE 339
   * FAIR QUADRUPLES AT SCOPE 128, ALL REALIZED, AND THE (128, 160] BAND HOLDS EXACTLY 12 MINIMAL SYMBOLS ON
-  * FOUR SETS, ALL AT 144 CHAMBERS (10 realized; the 16:18:19:21 pair is not realized by the filter, pinned
-  * so) — the guarded battery (-Dcensus.k4: the KSetShell fair-quadruple sweep + the scoped census +
-  * realization + the band under the k-part deck-conjugation lex-leader + the 16 certified slab keys located;
-  * expect ~9 h at par=8, dominated by the fairness sweep (~2 h 45 m) and the band monsters). The residue
-  * (160, 176] is not yet part of this battery. The unguarded canary pins a small quadruple end to end in ~20
-  * s: 9:16:19:25 carries EXACTLY ONE k = 4 class, realized, band empty (27 tuples); the rich 10-class set
-  * 16:21:25:27 is pinned by the battery.
+  * FOUR SETS, ALL AT 144 CHAMBERS, ALL 12 REALIZED — the guarded battery (-Dcensus.k4: the KSetShell
+  * fair-quadruple sweep + the scoped census + realization + the band under the k-part deck-conjugation
+  * lex-leader + the 16 certified slab keys located; expect ~9 h at par=8, dominated by the fairness sweep (~2
+  * h 45 m) and the band monsters). The residue (160, 176] is not yet part of this battery. The unguarded
+  * canary pins a small quadruple end to end in ~20 s: 9:16:19:25 carries EXACTLY ONE k = 4 class, realized,
+  * band empty (27 tuples); the rich 10-class set 16:21:25:27 is pinned by the battery.
   */
 class SymbolK4CensusSpec extends AnyFlatSpec with Matchers:
 
@@ -382,7 +381,7 @@ class SymbolK4CensusSpec extends AnyFlatSpec with Matchers:
 
   /** The (128, 160] band, pinned per set: 12 minimal symbols on four sets, every one at 144 = 36*4. */
   private val expectedBand: Map[String, (Int, Int)] = Map( // label -> (band symbols, realized)
-    "{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3" -> (2, 0), // the open pair
+    "{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3" -> (2, 2),
     "{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3" -> (6, 6),
     "{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#2"         -> (2, 2),
     "{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#2"         -> (2, 2)
@@ -467,23 +466,28 @@ class SymbolK4CensusSpec extends AnyFlatSpec with Matchers:
       pool.shutdown()
       errs shouldBe empty
 
-      var total     = 0
-      var bandTotal = 0
+      // every set is checked before anything fails, so one stale pin cannot hide the rest of the battery
+      var total                                                      = 0
+      var bandTotal                                                  = 0
+      val problems                                                   = collection.mutable.ArrayBuffer.empty[String]
+      def check[A](lbl: String, what: String, got: A, want: A): Unit =
+        if got != want then problems += s"$lbl: $what $got, expected $want"
       for sps <- quads do
         val lbl            = quadLabel(sps)
         val o              = out.get(sps)
         val (bSyms, bReal) = expectedBand.getOrElse(lbl, (0, 0))
-        withClue(s"$lbl: "):
-          o.capped shouldBe false
-          o.count shouldBe expected(lbl)
-          o.unrealized shouldBe 0
-          o.certBad shouldBe 0
-          o.bandSymbols shouldBe bSyms
-          o.bandRealized shouldBe bReal
-          if bSyms > 0 then o.bandSizes shouldBe Set(144) // every band discovery at exactly 36k
-          o.bandCapped shouldBe false
+        check(lbl, "capped", o.capped, false)
+        check(lbl, "classes", o.count, expected(lbl))
+        check(lbl, "unrealized", o.unrealized, 0)
+        check(lbl, "bad certificates", o.certBad, 0)
+        check(lbl, "band symbols", o.bandSymbols, bSyms)
+        check(lbl, "band realized", o.bandRealized, bReal)
+        if bSyms > 0 then check(lbl, "band sizes", o.bandSizes, Set(144)) // every band discovery at 36k
+        check(lbl, "band capped", o.bandCapped, false)
         total += o.count
         bandTotal += o.bandSymbols
+      problems.foreach(say)
+      withClue(problems.mkString("\n"))(problems shouldBe empty)
       total shouldBe 130
       bandTotal shouldBe 12
 
