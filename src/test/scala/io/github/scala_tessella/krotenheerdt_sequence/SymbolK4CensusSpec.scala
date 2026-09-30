@@ -388,6 +388,12 @@ class SymbolK4CensusSpec extends AnyFlatSpec with Matchers:
   )
 
   /** Census + realization + band of one fair quadruple, everything the row claims, as data. */
+  /** One set's outcome as a line of the log and of the certificate. */
+  private def outcomeLine(lbl: String, o: Outcome): String =
+    s"classes ${o.count} (pinned ${expected(lbl)}), unrealized ${o.unrealized}, " +
+      s"bad certificates ${o.certBad}, band ${o.bandSymbols} symbols ${o.bandRealized} realized at " +
+      s"${o.bandSizes.toVector.sorted.mkString(",")}, capped ${o.capped || o.bandCapped}"
+
   final private case class Outcome(
       sps: Vector[Int],
       capped: Boolean,
@@ -462,16 +468,29 @@ class SymbolK4CensusSpec extends AnyFlatSpec with Matchers:
               val lbl = quadLabel(sps)
               out.put(sps, o)
               // the whole outcome in the log, so that an interrupted battery still records every finished set
-              say(
-                s"done $lbl (${out.size}/${quads.size}): classes ${o.count} (pinned ${expected(lbl)}), " +
-                  s"unrealized ${o.unrealized}, bad certificates ${o.certBad}, band ${o.bandSymbols} symbols " +
-                  s"${o.bandRealized} realized at ${o.bandSizes.toVector.sorted.mkString(",")}, " +
-                  s"capped ${o.capped || o.bandCapped}"
-              )
+              say(s"done $lbl (${out.size}/${quads.size}): ${outcomeLine(lbl, o)}")
             catch case e: Throwable => errs.put(sps, e.toString)
             finally gate.countDown())
       gate.await()
       pool.shutdown()
+
+      // the certificate: every set's outcome, written before anything is asserted so that a failing run leaves
+      // its record too; an output only, never read back
+      val certLines = quads.map(sps => (quadLabel(sps), sps)).sortBy(_._1).map { (lbl, sps) =>
+        Option(
+          out.get(sps)
+        ).map(o => s"$lbl: ${outcomeLine(lbl, o)}").getOrElse(s"$lbl: ERROR ${errs.get(sps)}")
+      }
+      val outs      = quads.flatMap(sps => Option(out.get(sps)))
+      java.nio.file.Files.createDirectories(java.nio.file.Path.of("certs"))
+      java.nio.file.Files.writeString(
+        java.nio.file.Path.of("certs", "census-k4.txt"),
+        s"THE k = 4 CENSUS: the ${quads.size} admissible quadruples, every folding tuple to $scope chambers " +
+          s"and the band ($scope, $bandHi]\n" +
+          s"classes ${outs.map(_.count).sum}, band symbols ${outs.map(_.bandSymbols).sum}, " +
+          s"realized ${outs.map(_.bandRealized).sum}, sets with an error ${errs.size}\n\n" +
+          certLines.mkString("\n") + "\n"
+      ): Unit
       errs shouldBe empty
 
       // every set is checked before anything fails, so one stale pin cannot hide the rest of the battery

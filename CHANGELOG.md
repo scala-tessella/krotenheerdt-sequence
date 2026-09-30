@@ -29,6 +29,8 @@ from k = 5 on. The fast tier runs under `sbt test`; the long runs are opt-in and
 - `-Denumerate` alone runs the rows 2 to 10.
 - The k = 4 census battery: the band pair on {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3
   is realized by the filter of `research-core 0.13.1`, so all twelve band symbols are pinned realized; every
-  set is checked before the battery reports, so one stale pin cannot hide the others.
+  set is checked before the battery reports, so one stale pin cannot hide the others. The battery writes
+  its certificate, `certs/census-k4.txt`: every set's classes against its pin, its band and its capping,
+  written before anything is asserted.
 - The certificates of the chain: `enumeration-k2` to `enumeration-k10`, `dossiers-k5` to `dossiers-k8`, the
   lifts, the planar sequence and the census rows, regenerated under the cuts of the paper.

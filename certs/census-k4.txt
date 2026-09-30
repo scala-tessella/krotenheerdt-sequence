@@ -1,0 +1,342 @@
+THE k = 4 CENSUS: the 339 admissible quadruples, every folding tuple to 128 chambers and the band (128, 160]
+classes 130, band symbols 12, realized 12, sets with an error 0
+
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:12}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p3:4 p12:2}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:2 p6:2 p12:2}#1 ~ {p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3: classes 6 (pinned 6), unrealized 0, bad certificates 0, band 2 symbols 2 realized at 144, capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3: classes 6 (pinned 6), unrealized 0, bad certificates 0, band 6 symbols 6 realized at 144, capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1: classes 8 (pinned 8), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 5 (pinned 5), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1: classes 10 (pinned 10), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#2: classes 8 (pinned 8), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3 ~ {tet:1 truncTet:3 p3:2 p6:2}#1 ~ {tet:2 truncTet:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:2 p6:2}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#2 ~ {p3:12}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 16 (pinned 16), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1: classes 4 (pinned 4), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{cube:8}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:12}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:12}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#1 ~ {tet:8 oct:6}#2: classes 16 (pinned 16), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:2 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:2 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:2 p12:4}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:12}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:8 p6:2}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#2: classes 4 (pinned 4), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {tet:1 truncTet:3 p3:2 p6:2}#1 ~ {tet:2 truncTet:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:8 p6:2}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 2 symbols 2 realized at 144, capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 2 symbols 2 realized at 144, capped false
+{p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {tet:1 truncTet:3 p3:2 p6:2}#1 ~ {tet:2 truncTet:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#2 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:12}#2: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {cube:4 p3:6}#2 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {p3:8 p6:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {tet:1 truncTet:3 p3:2 p6:2}#1 ~ {tet:2 truncTet:6}#1 ~ {tet:2 truncTet:6}#2: classes 4 (pinned 4), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {tet:1 truncTet:3 p3:2 p6:2}#1 ~ {tet:2 truncTet:6}#2 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:4 p6:4}#3 ~ {tet:1 truncTet:3 p3:2 p6:2}#1 ~ {tet:2 truncTet:6}#2 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:8 p6:2}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:8 p6:2}#2 ~ {p3:12}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:8 p6:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p3:8 p6:2}#2 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1 ~ {tet:8 oct:6}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {cube:2 p3:4 p12:2}#2 ~ {p3:4 p6:4}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2: classes 1 (pinned 1), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#1 ~ {p3:8 p6:2}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {cube:4 p3:6}#2 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:12}#1 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:12}#2 ~ {tet:4 oct:3 p3:6}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:12}#2: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#2: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#1 ~ {p3:12}#1: classes 2 (pinned 2), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#1: classes 0 (pinned 0), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
+{p6:6}#1 ~ {p3:4 p6:4}#1 ~ {p3:8 p6:2}#2 ~ {p3:12}#2: classes 4 (pinned 4), unrealized 0, bad certificates 0, band 0 symbols 0 realized at , capped false
