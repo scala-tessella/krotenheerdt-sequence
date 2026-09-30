@@ -458,8 +458,16 @@ class SymbolK4CensusSpec extends AnyFlatSpec with Matchers:
         pool.submit(new Runnable:
           def run(): Unit =
             try
-              out.put(sps, outcomeOf(sps, _ => ()))
-              say(s"done ${quadLabel(sps)} (${out.size}/${quads.size})")
+              val o   = outcomeOf(sps, _ => ())
+              val lbl = quadLabel(sps)
+              out.put(sps, o)
+              // the whole outcome in the log, so that an interrupted battery still records every finished set
+              say(
+                s"done $lbl (${out.size}/${quads.size}): classes ${o.count} (pinned ${expected(lbl)}), " +
+                  s"unrealized ${o.unrealized}, bad certificates ${o.certBad}, band ${o.bandSymbols} symbols " +
+                  s"${o.bandRealized} realized at ${o.bandSizes.toVector.sorted.mkString(",")}, " +
+                  s"capped ${o.capped || o.bandCapped}"
+              )
             catch case e: Throwable => errs.put(sps, e.toString)
             finally gate.countDown())
       gate.await()
