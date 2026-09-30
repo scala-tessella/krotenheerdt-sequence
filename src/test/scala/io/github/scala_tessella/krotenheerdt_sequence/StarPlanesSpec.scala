@@ -6,7 +6,10 @@ import io.github.scala_tessella.research_core.SpeciesCorona
 import StarPlanes.*
 
 /** The junction planes of the species stars: the facts F1–F3 of the paper behind its theorems on the
-  * hexagon-world necklace and on the separation of octet cells from cubes and hexagonal prisms).
+  * hexagon-world necklace and on the separation of octet cells from cubes and hexagonal prisms. F2 lists, per
+  * star, every junction plane and the faces of the star it contains: the propagation of the two theorems
+  * starts at a star whose plane is unique (S|K, the face-sharing S|S star; the elongated and the
+  * close-packing octet stars) and needs, at the other stars, that every face lies in one of the planes.
   */
 class StarPlanesSpec extends AnyFlatSpec with Matchers:
 
@@ -69,6 +72,65 @@ class StarPlanesSpec extends AnyFlatSpec with Matchers:
     Vector("{tet:2 truncTet:6}#1", "{tet:2 truncTet:6}#2").map(l => kagomePlanes(idx(l)).size).sorted shouldBe
       Vector(1, 3)
   }
+
+  private def kagomePlanes(i: Int)                = junctionPlanes(i).filter(s => cyclic(s.pattern) == kagome)
+  private def inPlane(s: Split, f: Face)          = s.faces.exists(sameFace(_, f))
+  private def cells(fc: (Face, Vector[Corner]))   = fc._2.map(_.cell).sorted
+  private def basePlaneOfPrisms(i: Int, s: Split) =
+    starOf(i).filter(c => c.cell.startsWith("p")).forall(c => prismAxis(c).exists(sameLine(_, s.normal)))
+
+  "F2, the planes of the hexagon-world stars" should
+    "be one for S|K and K|K (the prisms' base plane), one for the face-sharing star through its two shared triangles, three for the other covering every face" in {
+      val i1            = idx("{tet:2 truncTet:6}#1")
+      val i2            = idx("{tet:2 truncTet:6}#2")
+      def faces(i: Int) = starFaces(starOf(i))
+      def tt(i: Int)    = faces(i).filter(cells(_) == Vector("tet", "tet"))
+      def xx3(i: Int)   = faces(i).filter(fc => fc._1.sides == 3 && cells(fc) == Vector("truncTet", "truncTet"))
+      // the index 1 is the star whose two tetrahedra share a face; both stars have six hexagons and six triangles
+      tt(i1).size shouldBe 1
+      tt(i2) shouldBe empty
+      for i <- Vector(i1, i2) do
+        faces(i).size shouldBe 12
+        faces(i).count(_._1.sides == 6) shouldBe 6
+        faces(i).forall(_._2.size == 2) shouldBe true
+      // the face-sharing star: one plane, containing its T|T triangle and its single X|X triangle
+      xx3(i1).size shouldBe 1
+      xx3(i2) shouldBe empty
+      val p1            = kagomePlanes(i1)
+      p1.size shouldBe 1
+      inPlane(p1.head, tt(i1).head._1) shouldBe true
+      inPlane(p1.head, xx3(i1).head._1) shouldBe true
+      // the other star: three planes, every hexagon and triangle of the star in exactly one
+      val p2            = kagomePlanes(i2)
+      p2.size shouldBe 3
+      for (f, _) <- faces(i2) do withClue(f)(p2.count(inPlane(_, f)) shouldBe 1)
+      // S|K and K|K: one plane, the base plane of the prisms
+      for lab <- Vector("{p3:4 p6:4}#3", "{tet:1 truncTet:3 p3:2 p6:2}#1") do
+        val ps = kagomePlanes(idx(lab))
+        withClue(lab)(ps.size shouldBe 1)
+        withClue(lab)(basePlaneOfPrisms(idx(lab), ps.head) shouldBe true)
+    }
+
+  "F2, the planes of the octet stars" should
+    "be one for the elongated star (the prisms' base plane), one for the close-packing star through its shared triangles, four for the cuboctahedral star covering every triangle" in {
+      val Vector(a, b)   = Vector("{tet:8 oct:6}#1", "{tet:8 oct:6}#2").map(idx)
+      def paired(i: Int) = starFaces(starOf(i)).filter(fc => cells(fc).distinct.size == 1) // T|T or O|O
+      val (hcp, fcc)     = if paired(a).nonEmpty then (a, b) else (b, a)
+      paired(fcc) shouldBe empty
+      paired(hcp).size shouldBe 6 // three triangles shared by two tetrahedra, three by two octahedra
+      val ph             = junctionPlanes(hcp)
+      ph.size shouldBe 1
+      paired(hcp).forall((f, _) => inPlane(ph.head, f)) shouldBe true
+      val pf             = junctionPlanes(fcc)
+      pf.size shouldBe 4
+      val ff             = starFaces(starOf(fcc))
+      ff.size shouldBe 24
+      for (f, _) <- ff do withClue(f)(pf.count(inPlane(_, f)) shouldBe 1)
+      val el             = idx("{tet:4 oct:3 p3:6}#1")
+      val pe             = junctionPlanes(el)
+      pe.size shouldBe 1
+      basePlaneOfPrisms(el, pe.head) shouldBe true
+    }
 
   it should "give the triangle-tiled junction planes of the octet species" in {
     val octet = Side(Map("tet" -> 4, "oct" -> 3), 0, 0)

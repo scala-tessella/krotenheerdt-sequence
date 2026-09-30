@@ -212,12 +212,12 @@ class StripCertificatesSpec extends AnyFlatSpec with Matchers:
     */
   /** The facts behind the lemma on period-4 runs and the vanishing at k = 11 over every consistent
     * three-layer context of the periods 2 and 4: a period-2 and a period-4 hexagon row are never adjacent;
-    * the level between the first two rows of a period-4 run carries exactly {19, 28}; a level with a third
-    * row of the run below carries 19 and another set; {p6:6}#1 (13) occurs only there; and {cube:8}#1 (18)
-    * only where cubes meet cubes.
+    * the level between the first two rows of a period-4 run carries exactly {19, 28}; the level between the
+    * second and third rows of a run (the third row above it) carries 19 in another set; {p6:6}#1 (13) occurs
+    * only there; and {cube:8}#1 (18) only where cubes meet cubes.
     */
   "the period-4 runs" should
-    "carry {19, 28} at their first level, another set with 19 at a third row, and 13 nowhere else" in {
+    "carry {19, 28} at their first level, another set with 19 under a third row, and 13 nowhere else" in {
       assume(OptIn.enabled("certificates"))
       import io.github.scala_tessella.research_core.SpeciesCorona
       SpeciesCorona.label(13) shouldBe "{p6:6}#1"

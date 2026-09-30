@@ -26,6 +26,14 @@ from k = 5 on. The fast tier runs under `sbt test`; the long runs are opt-in and
 
 ### Changed
 
+- The enumeration rows run their chains to closure: a chain closes when the label segment returns, within
+  24 segments by the level-orbit lemma (the stack period within four, the layer word read on the drifting
+  grid within 24, 16 without a period 3), so the cap on a word is 48k layers, where it was 8k. A re-check
+  finds the same rows; the certificates record the new cap.
+- `StarPlanesSpec` certifies F2 as the paper now states it: per star every junction plane with the faces of
+  the star it contains (`StarPlanes.Split.faces`, `starFaces`), the face-sharing S|S star told from the
+  other by its two tetrahedra sharing a face, the close-packing octet star from the cuboctahedral one by its
+  shared triangles; the first-plane argument of the hexagon-world and separation theorems rests on it.
 - `-Denumerate` alone runs the rows 2 to 10.
 - The k = 4 census battery: the band pair on {cube:4 p3:2 p6:2}#1 ~ {cube:8}#1 ~ {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3
   is realized by the filter of `research-core 0.13.1`, so all twelve band symbols are pinned realized; every

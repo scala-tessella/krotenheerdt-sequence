@@ -21,7 +21,7 @@ object StarPlanes:
   private def norm(a: V): V                =
     val n = math.sqrt(dot(a, a))
     (a._1 / n, a._2 / n, a._3 / n)
-  private def sameLine(a: V, b: V)         = math.abs(math.abs(dot(a, b)) - 1) < 1e-6
+  def sameLine(a: V, b: V): Boolean        = math.abs(math.abs(dot(a, b)) - 1) < 1e-6
   private def sameDir(a: V, b: V)          = math.abs(dot(a, b) - 1) < 1e-6
   private def angleDeg(a: V, b: V): Double =
     math.toDegrees(math.acos(math.max(-1.0, math.min(1.0, dot(a, b)))))
@@ -59,6 +59,21 @@ object StarPlanes:
       n <- polygonOf(angleDeg(c.edges(i), c.edges(j))) if allowed(n)
     yield Face(c.edges(i), c.edges(j), n)
 
+  /** Whether two faces at the vertex are the same geometric face: the same pair of edge directions. */
+  def sameFace(g: Face, f: Face): Boolean =
+    (sameDir(g.a, f.a) && sameDir(g.b, f.b)) || (sameDir(g.a, f.b) && sameDir(g.b, f.a))
+
+  /** The geometric faces of a star at the vertex, each once, with the corners (cells) presenting it — two for
+    * every face of a closed star.
+    */
+  def starFaces(star: Vector[Corner]): Vector[(Face, Vector[Corner])] =
+    val acc = collection.mutable.ArrayBuffer.empty[(Face, Vector[Corner])]
+    for c <- star; f <- cornerFaces(c) do
+      acc.indexWhere((g, _) => sameFace(g, f)) match
+        case -1 => acc += ((f, Vector(c)))
+        case i  => acc(i) = (acc(i)._1, acc(i)._2 :+ c)
+    acc.toVector
+
   /** The star of species i as corners. */
   def starOf(i: Int): Vector[Corner] =
     val st = SpeciesEnumerator.species(i).state
@@ -75,10 +90,10 @@ object StarPlanes:
     */
   final case class Side(cells: Map[String, Int], prismsAlong: Int, prismsAcross: Int)
 
-  /** A junction plane: the polygon sizes of the faces in the plane in cyclic order around the vertex, and the
-    * two sides.
+  /** A junction plane: the polygon sizes of the faces in the plane in cyclic order around the vertex, the two
+    * sides, and the faces of the star lying in the plane.
     */
-  final case class Split(normal: V, pattern: Vector[Int], below: Side, above: Side)
+  final case class Split(normal: V, pattern: Vector[Int], below: Side, above: Side, faces: Vector[Face])
 
   private def isPrism(cell: String) = cell.startsWith("p")
 
@@ -95,12 +110,7 @@ object StarPlanes:
     def side(v: V): Int = { val d = dot(v, n); if d > 1e-6 then 1 else if d < -1e-6 then -1 else 0 }
     // the faces lying in the plane, each geometric face once (it is a face of the cells on both sides)
     val inPlane         = star.flatMap(cornerFaces).filter(f => side(f.a) == 0 && side(f.b) == 0)
-      .foldLeft(Vector.empty[Face]) { (acc, f) =>
-        val dup = acc.exists(g =>
-          (sameDir(g.a, f.a) && sameDir(g.b, f.b)) || (sameDir(g.a, f.b) && sameDir(g.b, f.a))
-        )
-        if dup then acc else acc :+ f
-      }
+      .foldLeft(Vector.empty[Face])((acc, f) => if acc.exists(sameFace(_, f)) then acc else acc :+ f)
     val total           = inPlane.map(f => 180.0 - 360.0 / f.sides).sum
     // each cell's side: the sign of its edges off the plane, None if it has edges on both sides or none
     val sides           = star.map { c =>
@@ -121,7 +131,7 @@ object StarPlanes:
         val (along, across) =
           cs.filter(c => isPrism(c.cell)).partition(c => prismAxis(c).exists(sameLine(_, n)))
         Side(cs.groupBy(_.cell).view.mapValues(_.size).toMap, along.size, across.size)
-      Some(Split(n, pattern, mk(-1), mk(1)))
+      Some(Split(n, pattern, mk(-1), mk(1), inPlane))
 
   /** Every junction plane of species i. */
   def junctionPlanes(i: Int): Vector[Split] =
