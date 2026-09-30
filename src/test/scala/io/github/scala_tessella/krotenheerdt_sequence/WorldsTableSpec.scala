@@ -8,9 +8,10 @@ import org.scalatest.matchers.should.Matchers
 
 /** THE WORLDS TABLE: the admissible k-sets sorted by the cells of their species (the paper's `tab:worlds`). A
   * k-set lies in the hexagon world when a species has a truncated tetrahedron, in the mixed sets when an
-  * octet species (tetrahedra or octahedra) meets a cube or hexagonal-prism species, in the slab world when
-  * every cell is a tetrahedron, an octahedron or a triangular prism, in the prism world when every cell is a
-  * cube or a prism; a cubic-family species puts it in none (F0: no such set from k = 3 on).
+  * octet species (tetrahedra or octahedra) meets a cube or hexagonal-prism species, in the slab world when an
+  * octet species is present and every cell is a tetrahedron, an octahedron or a triangular prism, in the
+  * prism world when every cell is a cube or a prism (a set of triangular-prism species alone among them); a
+  * cubic-family species puts it in none (F0: no such set from k = 3 on).
   *
   * The classification is fast; the sets are the admissible ones of `KSetShell.fairKSets`, opt-in:
   * `-Dworlds=4` (the fair-quadruple sweep, about 2 h 45 min on one thread — the same sweep the k = 4 census
@@ -43,7 +44,7 @@ class WorldsTableSpec extends AnyFlatSpec with Matchers:
     else if cs.exists(_.exists(octetCells)) &&
       cs.exists(c => c.contains(CellType.Cube) || c.contains(CellType.P6))
     then World.Mixed
-    else if cs.forall(_.subsetOf(slabCells)) then World.Slab
+    else if cs.exists(_.exists(octetCells)) && cs.forall(_.subsetOf(slabCells)) then World.Slab
     else if cs.forall(_.subsetOf(prismCells)) then World.Prism
     else fail(s"k-set ${kSet.mkString(",")} fits no world")
 
@@ -54,6 +55,8 @@ class WorldsTableSpec extends AnyFlatSpec with Matchers:
     worldOf(Vector(21, 22, 23, 24)) shouldBe World.Hexagon
     // a prism-world pair: the kagome lift and the parallel prism star
     worldOf(Vector(21, 30)) shouldBe World.Prism
+    // the two {p3:12} stars alone: triangular prisms only, the prism world, not the slab world
+    worldOf(Vector(29, 30)) shouldBe World.Prism
 
   /** The paper's rows: admissible sets by world, k = 4, 5, 6. */
   private val expected: Map[Int, Map[World, Int]] = Map(
