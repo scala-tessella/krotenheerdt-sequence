@@ -31,7 +31,7 @@ sbt -Dcertificates test           # + the lemma certificates of the stacking wor
 sbt -Dplanar test                 # + the planar sequence T_3 .. T_7 by the SAT assembler
 sbt -Dlifts.k2 test               # + the prismatic lifts, row by row (also -Dlifts.k3, -Dlifts.k4, -Dlifts.k5)
 sbt -Dcensus.k2 test              # + the census rows (also -Dcensus.k3, -Dcensus.k4: up to about nine hours)
-sbt -Denumerate=5,6 test          # + the enumeration rows (-Denumerate alone: 2 to 10, about fifteen hours)
+sbt -Denumerate=5,6 test          # + the enumeration rows (-Denumerate alone: 2 to 10, about 32 hours on twelve threads)
 sbt -Ddossier=5,6,7,8 test        # + the dossier of every class from k = 5 on (some tuples take hours)
 sbt -Dworlds=4 test               # + the admissible sets by world (the fair-quadruple sweep, about 3 hours)
 ```
@@ -70,6 +70,30 @@ Run one with `sbt "testOnly *<SpecName>"`.
 | The enumeration rows | `EnumerationRowsSpec` (`-Denumerate`) | Each row returns exactly its known classes, the stackings together with the lifts the search reaches as words, and its two-direction words (rows of both axes) number W_k: 27 at k = 2 (18 + 9), 67 at k = 3 (50 + 17), 107 at k = 4 (93 + 14), 115 at k = 5 (107 + 8), 69 at k = 6 (68 + 1), 11 at k = 7, 2 at k = 8, none at k = 9 and 10. |
 | The worlds table | `WorldsTableSpec` (`-Dworlds=4`) | The world of a k-set read off its species' cells; the admissible sets at k = 4 by world, 294, 3, 6, 36. |
 | The dossiers | `DossierSpec` (`-Ddossier`) | Every class from k = 5 on valid and minimal with k distinct species, and the whole content of its folding tuple. |
+
+## Archival
+
+Deposited on Zenodo as a supplement to the paper record. **Cite the version DOI of the release you
+checked**, not the all-versions concept DOI — the latter always resolves to whatever is newest.
+
+Release-by-release changes are in [CHANGELOG.md](CHANGELOG.md), which states for each release whether the
+claims, the specs or only the packaging moved — what a referee who checked an earlier version needs.
+
+Zenodo assigns a release's version DOI at the moment that release is published, so it cannot be present in
+the tree that release archives: the `CITATION.cff` inside a deposit carries no version DOI. The version DOI
+of 0.1.0 is recorded here, and in `CITATION.cff` on the main branch, in the first commit after the tag.
+
+Pinned to `research-core 0.13.1` (an immutable Central release, both `research-core` and
+`research-core-solver`), archived as [10.5281/zenodo.23077376](https://doi.org/10.5281/zenodo.23077376).
+That archived snapshot — not the `research-core` repository's main branch, which may since have moved on —
+is the authoritative source for what this artifact depends on. The pin plus the snapshot make this a
+closed, reproducible artifact independent of any moving repository. The certificates under `certs/` are
+committed rather than archived separately: they are outputs only, never read back by any spec.
+
+The arithmetic and counting steps of the paper's hand proofs are formalized in Lean 4, deliberately apart
+from this artifact, in
+[krotenheerdt-sequence-lean](https://github.com/scala-tessella/krotenheerdt-sequence-lean) 0.1.0,
+[10.5281/zenodo.23077761](https://doi.org/10.5281/zenodo.23077761).
 
 ## License
 

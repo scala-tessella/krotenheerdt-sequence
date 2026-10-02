@@ -7,7 +7,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 a paper, entries state what a re-check would find different from the previous release — a referee who checked
 an earlier version should be able to tell from here whether the claims, the specs, or only the packaging moved.
 
-## [Unreleased]
+## [0.1.0] — 2026-10-02
+
+**First release.**
 
 The complete verification surface for the paper, pinned to `research-core 0.13.1`: the stacking model, the
 symmetries and the enumeration of the words with every cut; the star-table facts F0–F3 and the slab world;
