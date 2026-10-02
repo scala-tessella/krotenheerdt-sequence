@@ -1,4 +1,5 @@
-THE STACKING ENUMERATION, ROW k = 10: periods 2, 3, 4, segments <= 20, words <= 80
-segments 1989531, candidates 30771589, builds 50711, 11059s on 12 threads
+THE STACKING ENUMERATION, ROW k = 10: periods 2, 3, 4, segments <= 20, chains to closure (<= 24 segments, words <= 480)
+segments 1989531, candidates 35085890, builds 53981, 22023s on 12 threads
 0 classes with 10 distinct species (known: 0)
+two-direction words W_10 = 0, lifts that are words 0
 

@@ -1,6 +1,7 @@
-THE STACKING ENUMERATION, ROW k = 8: periods 2, 3, 4, segments <= 16, words <= 64
-segments 1853250, candidates 27706743, builds 46490, 8103s on 12 threads
+THE STACKING ENUMERATION, ROW k = 8: periods 2, 3, 4, segments <= 16, chains to closure (<= 24 segments, words <= 384)
+segments 1853250, candidates 33447287, builds 53759, 21436s on 12 threads
 2 classes with 8 distinct species (known: 2)
+two-direction words W_8 = 2, lifts that are words 0
 
 384ch  key 4048617f  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C C Tw{3/4} Tw Tu{0/2} Tu Tw{0/4} Tw C C Tw{1/4} Tw Tu{1/2} Tu Tw{2/4} Tw]
 384ch  key 7af2941d  {cube:4 p3:2 p6:2}#1 ~ {cube:4 p3:6}#1 ~ {cube:8}#1 ~ {p3:12}#2 ~ {p3:4 p6:4}#2 ~ {p3:4 p6:4}#3 ~ {p3:8 p6:2}#1 ~ {p3:8 p6:2}#2  word [C C Tw{3/4} Tw Tu{0/2} Tu Tw{0/4} Tw C C Tw{1/4} Tw Tu{0/2} Tu Tw{2/4} Tw]

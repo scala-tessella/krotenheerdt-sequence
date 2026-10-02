@@ -1,20 +1,20 @@
-THE STACKING ENUMERATION, ROW k = 2: periods 2, 3, 4, segments <= 4, words <= 16
-segments 485, candidates 46047, builds 96, 62s on 8 threads
+THE STACKING ENUMERATION, ROW k = 2: periods 2, 3, 4, segments <= 4, chains to closure (<= 24 segments, words <= 96)
+segments 485, candidates 76083, builds 100, 46s on 12 threads
 27 classes with 2 distinct species (known: 27)
-two-direction words W_2 = 18, lifts with straight rows 9
+two-direction words W_2 = 18, lifts that are words 9
 
-15ch  key f44ecac9  {p3:12}#2 ~ {p3:4 p6:4}#1  word [Tu{1/3} Tu{2/3} Tu]
-18ch  key 7ed58614  {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3  word [Tu{2/4} Tu{3/4} Tu{0/4} Tu{1/4}]
-18ch  key e245b38c  {p3:12}#1 ~ {p3:12}#2  word [Tu Tw Tw Tu]
+15ch  key f44ecac9  {p3:12}#2 ~ {p3:4 p6:4}#1  word [Tu{0/3} Tu{1/3} Tu]
+18ch  key 7ed58614  {p3:4 p6:4}#1 ~ {p3:4 p6:4}#3  word [Tu{0/4} Tu{1/4} Tu{2/4} Tu{3/4}]
+18ch  key e245b38c  {p3:12}#1 ~ {p3:12}#2  word [Tu Tu Tw Tw]
 21ch  key 324deacc  {cube:4 p3:6}#1 ~ {cube:8}#1  word [Tu C C Tw C C]
-21ch  key 50fdc02b  {cube:4 p3:6}#1 ~ {cube:8}#1  word [C C Tu]
+21ch  key 50fdc02b  {cube:4 p3:6}#1 ~ {cube:8}#1  word [C Tw C]
 21ch  key cb41f571  {p3:12}#2 ~ {p3:8 p6:2}#2  word [Tu Tu{2/3} Tu]
 24ch  key 2ccb80a1  {cube:4 p3:6}#1 ~ {p3:12}#1  word [C Tw Tu]
 24ch  key 60789961  {cube:4 p3:6}#1 ~ {p3:12}#2  word [Tu C Tu]
 24ch  key 83f1298b  {cube:4 p3:6}#1 ~ {p3:12}#2  word [C Tw Tw C Tu Tu]
-24ch  key af7ab07b  {cube:4 p3:6}#1 ~ {p3:12}#1  word [C Tw Tu C Tu Tw]
+24ch  key af7ab07b  {cube:4 p3:6}#1 ~ {p3:12}#1  word [Tu C Tu Tw C Tw]
 27ch  key 31b04d65  {cube:4 p3:6}#1 ~ {cube:8}#1  word [C C C Tu]
-27ch  key 69bb5860  {cube:4 p3:6}#1 ~ {cube:8}#1  word [C C C Tu C C C Tw]
+27ch  key 69bb5860  {cube:4 p3:6}#1 ~ {cube:8}#1  word [Tu C C C Tw C C C]
 27ch  key 9856c298  {p3:12}#1 ~ {p3:12}#2  word [Tu Tu Tu Tw Tw Tw]
 27ch  key ea31515f  {p3:12}#1 ~ {p3:12}#2  word [Tu Tw Tu]
 30ch  key 175116ba  {cube:4 p3:2 p6:2}#1 ~ {p3:4 p6:4}#3  word [C Tw{1/2} Tw C Tw{0/2} Tw]
