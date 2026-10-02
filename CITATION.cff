@@ -11,7 +11,7 @@ abstract: >-
   enumeration of the words with every cut the paper proves; the facts of the species table
   the structure theorems use; the slab world; the census of the rows k = 2, 3, 4; the
   prismatic lifts, with the planar Krötenheerdt sequence re-derived by a SAT assembler; and
-  the enumeration of the rows k = 4 to 10 with the dossier of every class from k = 5 on. The
+  the enumeration of the rows k = 2 to 10 with the dossier of every class from k = 5 on. The
   sequence of k-uniform Krötenheerdt honeycombs of Euclidean 3-space is 28, 57, 119, 146,
   122, 78, 18, 2 and vanishes from k = 9 on. All shared machinery is the pinned research-core
   library.
@@ -27,9 +27,16 @@ repository-code: https://github.com/scala-tessella/krotenheerdt-sequence
 url: https://github.com/scala-tessella/krotenheerdt-sequence
 version: 0.1.0
 date-released: '2026-10-02'
-# Zenodo mints the version DOI of a release when the release is published, so it cannot be present in the
-# tree that release archives; the version DOI, and the concept DOI that comes with the first deposit, are
-# recorded here in the first commit after the tag.
+# Version DOI of this release, the one to cite. Zenodo mints it when the release is published, so it cannot
+# be present in the tree that release archives; it is recorded here in the first commit after the tag.
+doi: 10.5281/zenodo.23096848
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23096847
+    description: Concept DOI (all versions) — always resolves to the newest release
+  - type: doi
+    value: 10.5281/zenodo.23096848
+    description: Version DOI of release 0.1.0
 keywords:
   - honeycombs
   - k-uniform honeycombs

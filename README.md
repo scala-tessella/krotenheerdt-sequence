@@ -74,14 +74,19 @@ Run one with `sbt "testOnly *<SpecName>"`.
 ## Archival
 
 Deposited on Zenodo as a supplement to the paper record. **Cite the version DOI of the release you
-checked**, not the all-versions concept DOI — the latter always resolves to whatever is newest.
+checked**, not the all-versions concept DOI — the latter always resolves to whatever is newest:
+
+| Version | DOI |
+|---|---|
+| 0.1.0 | [10.5281/zenodo.23096848](https://doi.org/10.5281/zenodo.23096848) |
 
 Release-by-release changes are in [CHANGELOG.md](CHANGELOG.md), which states for each release whether the
 claims, the specs or only the packaging moved — what a referee who checked an earlier version needs.
 
 Zenodo assigns a release's version DOI at the moment that release is published, so it cannot be present in
 the tree that release archives: the `CITATION.cff` inside a deposit carries no version DOI. The version DOI
-of 0.1.0 is recorded here, and in `CITATION.cff` on the main branch, in the first commit after the tag.
+is recorded in this table, and in `CITATION.cff` on the main branch, in the first commit after the tag; the
+concept DOI (all versions) is [10.5281/zenodo.23096847](https://doi.org/10.5281/zenodo.23096847).
 
 Pinned to `research-core 0.13.1` (an immutable Central release, both `research-core` and
 `research-core-solver`), archived as [10.5281/zenodo.23077376](https://doi.org/10.5281/zenodo.23077376).
